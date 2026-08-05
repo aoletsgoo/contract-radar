@@ -14,13 +14,14 @@
     "contract project manager",
     "contract business analyst",
     "programme manager contract",
-    "interim project manager"
+    "interim project manager",
+    "remote contract project manager",
+    "remote contract business analyst"
   ],
 
   "reed": {
+    "_comment": "No locationName = UK-wide. Add one back with distanceFromLocation to narrow it.",
     "enabled": true,
-    "locationName": "London",
-    "distanceFromLocation": 30,
     "resultsToTake": 100,
     "maxDetailFetches": 60
   },
@@ -42,6 +43,7 @@
   },
 
   "filters": {
+    "remoteOnly": true,
     "dropBelowRate": 350,
     "keepUnknownRate": true,
     "maxRolesRetained": 300,

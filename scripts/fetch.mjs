@@ -276,12 +276,40 @@ function toRole(raw, filters) {
   };
 }
 
-function applyFilters(roles, f) {
-  return roles.filter((r) => {
-    if (!r.title || !r.company) return false;
-    if (!r.rate) return f.keepUnknownRate !== false;
-    return r.rate >= (f.dropBelowRate || 0);
+const REMOTE_RE = /\b(fully remote|100% remote|remote(?:ly)?|work from home|working from home|wfh|home[- ]?based|anywhere in the uk|remote first)\b/i;
+const ONSITE_RE = /\b(on[- ]?site only|fully on[- ]?site|office[- ]?based|\d\s*days? (?:per week )?(?:in|on)[- ]?(?:the )?(?:office|site))\b/i;
+
+/**
+ * Is this advert actually remote?
+ * "Hybrid" alone doesn't qualify, but plenty of genuinely remote adverts say
+ * "remote with occasional travel" — so an explicit remote signal wins over a
+ * hybrid mention, and only an explicit on-site requirement overrides it.
+ */
+function looksRemote(raw) {
+  const hay = `${raw.title} ${raw.location} ${raw.text}`;
+  if (!REMOTE_RE.test(hay)) return false;
+  if (ONSITE_RE.test(hay)) return false;
+  return true;
+}
+
+function applyFilters(raws, f) {
+  const dropped = { notRemote: 0, belowRate: 0, incomplete: 0 };
+
+  const kept = raws.filter((x) => {
+    if (!x.role.title || !x.role.company) { dropped.incomplete++; return false; }
+    if (f.remoteOnly && !looksRemote(x.raw)) { dropped.notRemote++; return false; }
+    if (!x.role.rate) return f.keepUnknownRate !== false;
+    if (x.role.rate < (f.dropBelowRate || 0)) { dropped.belowRate++; return false; }
+    return true;
   });
+
+  // Never let a filter shrink the board silently — a quiet week and an overly
+  // tight filter look identical from the dashboard.
+  if (dropped.notRemote) log(`filtered out ${dropped.notRemote} non-remote adverts`);
+  if (dropped.belowRate) log(`filtered out ${dropped.belowRate} under £${f.dropBelowRate}/day`);
+  if (dropped.incomplete) log(`filtered out ${dropped.incomplete} with missing title/company`);
+
+  return kept.map((x) => x.role);
 }
 
 /* ------------------------------------------------------------------- merge */
@@ -357,6 +385,30 @@ const FIXTURE = [
     source: "Adzuna", title: "Junior Coordinator", company: "SmallCo", location: "Hull",
     url: "https://www.adzuna.co.uk/jobs/000004", snippetOnly: true,
     text: "Admin support role. £180 per day.", rate: null, length: ""
+  },
+  // remote-filter edge cases
+  {
+    source: "Reed", title: "Contract Business Analyst - Regulatory Reporting",
+    company: "Aviva", location: "Remote (UK)", url: "https://www.reed.co.uk/jobs/000005",
+    snippetOnly: false,
+    text: "Fully remote with occasional travel to Norwich for quarterly planning. Outside IR35, " +
+          "engage through your own limited company. 6 months. £575 per day.",
+    rate: null, length: ""
+  },
+  {
+    source: "Reed", title: "Programme Manager - Core Banking",
+    company: "Nationwide", location: "Swindon", url: "https://www.reed.co.uk/jobs/000006",
+    snippetOnly: false,
+    text: "Hybrid role, 3 days per week in the office. Outside IR35 determination in place. " +
+          "£600 per day, 12 months.",
+    rate: null, length: ""
+  },
+  {
+    source: "Adzuna", title: "Interim Project Manager (home-based)",
+    company: "Sage", location: "Home-based, anywhere in the UK",
+    url: "https://www.adzuna.co.uk/jobs/000007", snippetOnly: true,
+    text: "Home-based contract role supporting a finance transformation. £500 per day…",
+    rate: null, length: ""
   }
 ];
 
@@ -400,7 +452,7 @@ async function main() {
   }
 
   const filters = cfg.filters || {};
-  const scored = applyFilters(raw.map((r) => toRole(r, filters)), filters);
+  const scored = applyFilters(raw.map((r) => ({ raw: r, role: toRole(r, filters) })), filters);
   const before = store.roles?.length || 0;
   const roles = merge(store.roles || [], scored, filters, nowIso);
   const fresh = roles.filter((r) => r.firstSeen === nowIso).length;
