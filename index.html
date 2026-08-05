@@ -974,8 +974,10 @@
     var safe = all.filter(function (r) { return bandOf(r.rating) === "safe"; }).length;
     var warn = all.filter(function (r) { return bandOf(r.rating) === "warn"; }).length;
     var risk = all.filter(function (r) { return bandOf(r.rating) === "risk"; }).length;
-    var live = all.filter(function (r) { return r.status !== "rejected"; });
-    var avg = live.length ? Math.round(live.reduce(function (s, r) { return s + Number(r.rate || 0); }, 0) / live.length) : 0;
+    // Plenty of adverts never state a rate. Counting those as £0 drags the average
+    // down and makes the board look worse paid than it is.
+    var live = all.filter(function (r) { return r.status !== "rejected" && Number(r.rate) > 0; });
+    var avg = live.length ? Math.round(live.reduce(function (s, r) { return s + Number(r.rate); }, 0) / live.length) : 0;
     var applied = all.filter(function (r) { return r.status === "applied" || r.status === "interview"; }).length;
 
     document.getElementById("stats").innerHTML = [
@@ -983,7 +985,7 @@
       stat("Outside IR35", safe, "safe"),
       stat("Ambiguous", warn, "warn"),
       stat("Inside IR35", risk, "risk"),
-      stat("Avg live rate", avg ? money(avg) + "<small> /day</small>" : "—", ""),
+      stat("Avg stated rate", avg ? money(avg) + "<small> /day · " + live.length + " of " + all.length + "</small>" : "—", ""),
       stat("Applied", applied, "")
     ].join("");
 
@@ -1136,8 +1138,10 @@
 
   function buildReport() {
     var all = state.roles.slice().sort(function (a, b) { return a.rating - b.rating; });
-    var live = all.filter(function (r) { return r.status !== "rejected"; });
-    var avg = live.length ? Math.round(live.reduce(function (s, r) { return s + Number(r.rate || 0); }, 0) / live.length) : 0;
+    // Plenty of adverts never state a rate. Counting those as £0 drags the average
+    // down and makes the board look worse paid than it is.
+    var live = all.filter(function (r) { return r.status !== "rejected" && Number(r.rate) > 0; });
+    var avg = live.length ? Math.round(live.reduce(function (s, r) { return s + Number(r.rate); }, 0) / live.length) : 0;
     var L = [];
     L.push("# Contract Opportunities — " + stamp());
     L.push("");
