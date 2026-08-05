@@ -69,8 +69,13 @@ async function reedDetail(jobId, key) {
 /**
  * Reed search results truncate the description, and a truncated advert can't be
  * scored honestly — so pull the full text for as many as the budget allows.
+ *
+ * Order matters: cheap filters run against the search snippet FIRST, so the detail
+ * budget is spent only on adverts that could actually make the board. Fetching
+ * details before filtering wastes the budget on roles that are about to be binned,
+ * and leaves the survivors scored off snippets they can't be judged on.
  */
-async function collectReed(cfg, keywords, key) {
+async function collectReed(cfg, keywords, key, prefilter) {
   const seen = new Map();
 
   for (const kw of keywords) {
@@ -86,17 +91,35 @@ async function collectReed(cfg, keywords, key) {
     await sleep(250);
   }
 
-  const budget = cfg.maxDetailFetches || 60;
+  let candidates = [...seen.entries()];
+  const found = candidates.length;
+
+  if (prefilter) {
+    candidates = candidates.filter(([, r]) =>
+      prefilter({
+        title: r.jobTitle || "",
+        location: r.locationName || "",
+        text: stripHtml(r.jobDescription || "")
+      })
+    );
+    log(`Reed: ${found} unique → ${candidates.length} past the pre-filter`);
+  }
+
+  const budget = cfg.maxDetailFetches || 200;
+  if (candidates.length > budget) {
+    log(`Reed: detail budget is ${budget}, so ${candidates.length - budget} will stay snippet-only`);
+  }
+
   const out = [];
   let fetched = 0;
 
-  for (const [jobId, r] of seen) {
+  for (const [jobId, r] of candidates) {
     let detail = null;
     if (fetched < budget) {
       try {
         detail = await reedDetail(jobId, key);
         fetched++;
-        await sleep(150);
+        await sleep(120);
       } catch (e) {
         warn(`detail ${jobId}: ${e.message}`);
       }
@@ -125,7 +148,7 @@ async function collectReed(cfg, keywords, key) {
     });
   }
 
-  log(`Reed: ${out.length} unique, ${fetched} full adverts pulled`);
+  log(`Reed: ${out.length} candidates, ${fetched} full adverts pulled`);
   return out;
 }
 
@@ -136,12 +159,14 @@ async function collectAdzuna(cfg, keywords, id, key) {
   const seen = new Set();
 
   for (const kw of keywords) {
+    // `contract=1` is the request filter. `contract_type` is a RESPONSE field —
+    // sending it as a query param is what made every call 400.
     const qs = new URLSearchParams({
       app_id: id,
       app_key: key,
       results_per_page: String(cfg.resultsPerPage || 50),
       what: kw,
-      contract_type: "contract",
+      contract: "1",
       max_days_old: String(cfg.maxDaysOld || 2),
       "content-type": "application/json"
     });
@@ -152,7 +177,11 @@ async function collectAdzuna(cfg, keywords, id, key) {
       const res = await fetch(
         `https://api.adzuna.com/v1/api/jobs/${cfg.country || "gb"}/search/1?${qs}`
       );
-      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+      if (!res.ok) {
+        // the body carries the actual complaint; the status alone tells you nothing
+        const detail = (await res.text().catch(() => "")).slice(0, 300);
+        throw new Error(`${res.status} ${res.statusText} ${detail}`);
+      }
       body = await res.json();
     } catch (e) {
       warn(`Adzuna "${kw}" failed: ${e.message}`);
@@ -434,8 +463,10 @@ async function main() {
     const adzId = process.env.ADZUNA_APP_ID;
     const adzKey = process.env.ADZUNA_APP_KEY;
 
+    const prefilter = cfg.filters?.remoteOnly ? looksRemote : null;
+
     if (cfg.reed?.enabled) {
-      if (reedKey) raw.push(...(await collectReed(cfg.reed, keywords, reedKey)));
+      if (reedKey) raw.push(...(await collectReed(cfg.reed, keywords, reedKey, prefilter)));
       else warn("REED_API_KEY not set — skipping Reed");
     }
     if (cfg.adzuna?.enabled) {

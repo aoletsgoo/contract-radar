@@ -23,7 +23,7 @@
     "_comment": "No locationName = UK-wide. Add one back with distanceFromLocation to narrow it.",
     "enabled": true,
     "resultsToTake": 100,
-    "maxDetailFetches": 60
+    "maxDetailFetches": 200
   },
 
   "adzuna": {
