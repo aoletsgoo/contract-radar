@@ -70,28 +70,65 @@ export function band(rating) {
   return rating <= 3 ? "safe" : rating <= 6 ? "warn" : "risk";
 }
 
+// £45,000 becomes £45000 once commas go, and \d{3,4} would happily match "4500"
+// inside it. The lookarounds keep a match to a whole number.
+const N = "(?<!\\d)(\\d{3,4})(?!\\d)";
+const PER_DAY = "(?:per day|per\\s?day|p\\/?d\\b|pd\\b|a day|daily|\\/\\s?day|day rate)";
+const DAY_CONTEXT = /per day|day rate|\/\s?day|\bp\/?d\b|\ba day\b|daily rate/i;
+const PLAUSIBLE = (n) => n >= 150 && n <= 2500;
+
 /** Pull a day rate out of advert text. Returns the top of any range, or null. */
 export function extractDayRate(text) {
   const t = stripHtml(text).replace(/,/g, "");
-  const perDay = "(?:per day|per\\s?day|p\\/?d\\b|a day|daily|\\/\\s?day|day rate)";
+  const pick = (...ns) => {
+    const best = Math.max(...ns.map(Number).filter((n) => n && PLAUSIBLE(n)), 0);
+    return best || null;
+  };
 
-  const range = new RegExp(
-    "£\\s?(\\d{3,4})(?:\\.\\d+)?\\s*(?:-|–|—|to)\\s*£?\\s?(\\d{3,4})(?:\\.\\d+)?[^.\\n]{0,25}?" + perDay,
-    "i"
-  );
-  const m1 = t.match(range);
-  if (m1) return Math.max(Number(m1[1]), Number(m1[2]));
+  // "£500 - £550 per day"
+  const m1 = t.match(new RegExp(`£\\s?${N}(?:\\.\\d+)?\\s*(?:-|–|—|to)\\s*£?\\s?${N}(?:\\.\\d+)?[^.\\n]{0,25}?${PER_DAY}`, "i"));
+  if (m1) return pick(m1[1], m1[2]);
 
-  const single = new RegExp("£\\s?(\\d{3,4})(?:\\.\\d+)?[^.\\n]{0,25}?" + perDay, "i");
-  const m2 = t.match(single);
-  if (m2) return Number(m2[1]);
+  // "£500 per day"
+  const m2 = t.match(new RegExp(`£\\s?${N}(?:\\.\\d+)?[^.\\n]{0,25}?${PER_DAY}`, "i"));
+  if (m2) return pick(m2[1]);
 
-  // "up to 650 per day" with the £ omitted
-  const bare = new RegExp("\\b(\\d{3,4})\\s*(?:-|–|to)?\\s*(\\d{3,4})?[^.\\n]{0,15}?" + perDay, "i");
-  const m3 = t.match(bare);
-  if (m3) return Math.max(Number(m3[1]), Number(m3[2] || 0));
+  // "Day rate: £500" / "day rate of up to £650" — the marker leads
+  const m3 = t.match(new RegExp(`day rate[^£\\n]{0,25}£\\s?${N}(?:\\s*(?:-|–|—|to)\\s*£?\\s?${N})?`, "i"));
+  if (m3) return pick(m3[1], m3[2] || 0);
+
+  // "up to 650 per day", £ omitted. The optional second number must be wrapped —
+  // `${N}?` would only make the lookahead optional, not the digits.
+  const m4 = t.match(new RegExp(`${N}\\s*(?:-|–|to)?\\s*(?:${N})?[^.\\n]{0,15}?${PER_DAY}`, "i"));
+  if (m4) return pick(m4[1], m4[2] || 0);
+
+  // Last resort: a bare "£400 – £500" with no marker attached, as in
+  // "Salesforce Consultant | £400 – £500 | Outside IR35". A 3–4 digit figure on a
+  // contract board is a day rate — annual salaries are 5–6 digits and can't match
+  // N anyway. Only reject if the words right after it say otherwise.
+  const m5 = t.match(new RegExp(`£\\s?${N}(?:\\s*(?:-|–|—|to)\\s*£?\\s?${N})?`, "i"));
+  if (m5) {
+    const after = t.slice(m5.index + m5[0].length, m5.index + m5[0].length + 40);
+    if (!/annum|year|salary|per week|weekly|per hour|hourly|per month|monthly|k\b/i.test(after)) {
+      return pick(m5[1], m5[2] || 0);
+    }
+  }
 
   return null;
+}
+
+/**
+ * Is this advert for the kind of role we're looking for?
+ * Reed's keyword matching is loose — searching "contract project manager" returns
+ * Sitecore developers and data scientists — so the title gets checked directly.
+ */
+export function titleMatches(title, terms) {
+  if (!terms || !terms.length) return true;
+  const t = " " + String(title || "").toLowerCase().replace(/[^a-z0-9]+/g, " ") + " ";
+  return terms.some((term) => {
+    const clean = String(term).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    return clean && t.includes(" " + clean + " ");
+  });
 }
 
 /** Pull a contract length out of advert text. */

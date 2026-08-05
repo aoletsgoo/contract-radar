@@ -43,6 +43,12 @@
   },
 
   "filters": {
+    "_comment": "titleMustMatch keeps the board on-brief — Reed's keyword search is loose and returns developers, testers and data scientists for 'contract project manager'. Empty array disables it.",
+    "titleMustMatch": [
+      "project manager", "programme manager", "program manager", "project lead",
+      "business analyst", "business analysis", "delivery manager", "pmo",
+      "transformation manager", "change manager", "pm", "ba"
+    ],
     "remoteOnly": true,
     "dropBelowRate": 350,
     "keepUnknownRate": true,

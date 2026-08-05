@@ -15,7 +15,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { assess, band, extractDayRate, extractLength, stripHtml, roleId } from "./ir35.mjs";
+import { assess, band, extractDayRate, extractLength, stripHtml, roleId, titleMatches } from "./ir35.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DRY = process.argv.includes("--dry-run");
@@ -322,10 +322,11 @@ function looksRemote(raw) {
 }
 
 function applyFilters(raws, f) {
-  const dropped = { notRemote: 0, belowRate: 0, incomplete: 0 };
+  const dropped = { offBrief: 0, notRemote: 0, belowRate: 0, incomplete: 0 };
 
   const kept = raws.filter((x) => {
     if (!x.role.title || !x.role.company) { dropped.incomplete++; return false; }
+    if (!titleMatches(x.role.title, f.titleMustMatch)) { dropped.offBrief++; return false; }
     if (f.remoteOnly && !looksRemote(x.raw)) { dropped.notRemote++; return false; }
     if (!x.role.rate) return f.keepUnknownRate !== false;
     if (x.role.rate < (f.dropBelowRate || 0)) { dropped.belowRate++; return false; }
@@ -334,6 +335,7 @@ function applyFilters(raws, f) {
 
   // Never let a filter shrink the board silently — a quiet week and an overly
   // tight filter look identical from the dashboard.
+  if (dropped.offBrief) log(`filtered out ${dropped.offBrief} not PM/BA by title`);
   if (dropped.notRemote) log(`filtered out ${dropped.notRemote} non-remote adverts`);
   if (dropped.belowRate) log(`filtered out ${dropped.belowRate} under £${f.dropBelowRate}/day`);
   if (dropped.incomplete) log(`filtered out ${dropped.incomplete} with missing title/company`);
@@ -463,7 +465,12 @@ async function main() {
     const adzId = process.env.ADZUNA_APP_ID;
     const adzKey = process.env.ADZUNA_APP_KEY;
 
-    const prefilter = cfg.filters?.remoteOnly ? looksRemote : null;
+    // The same filters, run against the cheap search snippet, so the Reed detail
+    // budget is never spent on an advert that can't make the board.
+    const f = cfg.filters || {};
+    const prefilter = (f.remoteOnly || f.titleMustMatch?.length)
+      ? (cand) => titleMatches(cand.title, f.titleMustMatch) && (!f.remoteOnly || looksRemote(cand))
+      : null;
 
     if (cfg.reed?.enabled) {
       if (reedKey) raw.push(...(await collectReed(cfg.reed, keywords, reedKey, prefilter)));
