@@ -1,0 +1,1453 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contract Radar - log UK contract PM/BA roles, score them against IR35 indicators, and track applications.">
+<meta name="color-scheme" content="light dark">
+<style>*{margin:0;padding:0}body{margin:0}</style>
+</head>
+<body>
+<title>Contract Radar — IR35 Desk</title>
+
+<style>
+  :root {
+    --paper:      #f5f3f7;
+    --card:       #ffffff;
+    --card-2:     #faf8fb;
+    --ink:        #1b1620;
+    --ink-2:      #5b5265;
+    --ink-3:      #857c8f;
+    --line:       #e2dce7;
+    --line-hard:  #cfc6d6;
+    --accent:     #6a3d7c;
+    --accent-ink: #ffffff;
+    --accent-sof: #efe6f3;
+    --safe:       #17714f;
+    --safe-sof:   #e2f1ea;
+    --warn:       #8f5f0e;
+    --warn-sof:   #f7eeda;
+    --risk:       #a32f2c;
+    --risk-sof:   #f8e6e4;
+    --shadow:     0 1px 2px rgba(27,22,32,.05), 0 8px 24px -16px rgba(27,22,32,.30);
+
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:      #15121a;
+      --card:       #1e1a25;
+      --card-2:     #241f2c;
+      --ink:        #f0ebf3;
+      --ink-2:      #aca2b5;
+      --ink-3:      #857c90;
+      --line:       #322b3c;
+      --line-hard:  #453c52;
+      --accent:     #c49ad6;
+      --accent-ink: #201829;
+      --accent-sof: #2c2335;
+      --safe:       #57c396;
+      --safe-sof:   #1c3830;
+      --warn:       #dda94b;
+      --warn-sof:   #3a2f1c;
+      --risk:       #ec7d76;
+      --risk-sof:   #3b2224;
+      --shadow:     0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#15121a; --card:#1e1a25; --card-2:#241f2c; --ink:#f0ebf3; --ink-2:#aca2b5;
+    --ink-3:#857c90; --line:#322b3c; --line-hard:#453c52; --accent:#c49ad6; --accent-ink:#201829;
+    --accent-sof:#2c2335; --safe:#57c396; --safe-sof:#1c3830; --warn:#dda94b; --warn-sof:#3a2f1c;
+    --risk:#ec7d76; --risk-sof:#3b2224;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.9);
+  }
+  :root[data-theme="light"] {
+    --paper:#f5f3f7; --card:#ffffff; --card-2:#faf8fb; --ink:#1b1620; --ink-2:#5b5265;
+    --ink-3:#857c8f; --line:#e2dce7; --line-hard:#cfc6d6; --accent:#6a3d7c; --accent-ink:#ffffff;
+    --accent-sof:#efe6f3; --safe:#17714f; --safe-sof:#e2f1ea; --warn:#8f5f0e; --warn-sof:#f7eeda;
+    --risk:#a32f2c; --risk-sof:#f8e6e4;
+    --shadow:0 1px 2px rgba(27,22,32,.05), 0 8px 24px -16px rgba(27,22,32,.30);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 28px 20px 96px;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 18px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--ink);
+  }
+  .brand h1 {
+    font-family: var(--serif);
+    font-size: clamp(30px, 5vw, 44px);
+    font-weight: 600;
+    letter-spacing: -.015em;
+    line-height: 1.05;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .brand h1 em { font-style: italic; color: var(--accent); }
+  .brand p {
+    margin: 6px 0 0;
+    color: var(--ink-2);
+    max-width: 54ch;
+    font-size: 14px;
+  }
+  .scanbar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  .scanbar b {
+    background: var(--accent-sof);
+    color: var(--accent);
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-weight: 600;
+  }
+
+  /* ---------- stat strip ---------- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    background: var(--card);
+    border: 1px solid var(--line);
+    margin-top: 22px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .stat {
+    padding: 14px 16px;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .stat .k {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .stat .v {
+    font-family: var(--serif);
+    font-size: 27px;
+    line-height: 1.15;
+    margin-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat .v small { font-size: 14px; color: var(--ink-2); font-family: var(--sans); }
+  .stat.safe .v { color: var(--safe); }
+  .stat.warn .v { color: var(--warn); }
+  .stat.risk .v { color: var(--risk); }
+
+  /* ---------- tabs ---------- */
+  nav.tabs {
+    display: flex;
+    gap: 2px;
+    margin: 26px 0 0;
+    border-bottom: 1px solid var(--line-hard);
+    overflow-x: auto;
+  }
+  nav.tabs button {
+    appearance: none;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    padding: 10px 14px;
+    font: inherit;
+    font-size: 13.5px;
+    color: var(--ink-2);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  nav.tabs button:hover { color: var(--ink); }
+  nav.tabs button[aria-selected="true"] {
+    color: var(--ink);
+    border-bottom-color: var(--accent);
+    font-weight: 600;
+  }
+  nav.tabs .count {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--ink-3);
+    margin-left: 5px;
+  }
+
+  .panel { display: none; padding-top: 24px; }
+  .panel.on { display: block; }
+
+  /* ---------- generic bits ---------- */
+  h2.sec {
+    font-family: var(--serif);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    letter-spacing: -.01em;
+  }
+  .sub { color: var(--ink-2); font-size: 13.5px; margin: 0 0 16px; max-width: 66ch; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+  }
+
+  button.btn, a.btn {
+    appearance: none;
+    font: inherit;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid var(--line-hard);
+    background: var(--card);
+    color: var(--ink);
+    padding: 7px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: background .12s ease, border-color .12s ease;
+  }
+  button.btn:hover, a.btn:hover { background: var(--card-2); border-color: var(--accent); }
+  button.btn.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+    font-weight: 600;
+  }
+  button.btn.primary:hover { filter: brightness(1.08); }
+  button.btn.ghost { border-color: transparent; color: var(--ink-2); }
+  button.btn.ghost:hover { color: var(--risk); border-color: var(--risk); background: var(--risk-sof); }
+
+  :where(button, a, input, select, textarea):focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  input[type="text"], input[type="number"], input[type="url"], select, textarea {
+    font: inherit;
+    font-size: 13.5px;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line-hard);
+    border-radius: 4px;
+    padding: 7px 9px;
+    width: 100%;
+  }
+  textarea { resize: vertical; line-height: 1.55; }
+  label.fld { display: block; }
+  label.fld > span {
+    display: block;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: 5px;
+  }
+
+  /* ---------- filter bar ---------- */
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+    padding: 14px;
+    margin-bottom: 20px;
+  }
+  .filters .grow { flex: 1 1 220px; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip {
+    appearance: none;
+    font: inherit;
+    font-size: 12.5px;
+    padding: 6px 11px;
+    border-radius: 100px;
+    border: 1px solid var(--line-hard);
+    background: var(--card);
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+  .chip[aria-pressed="true"] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--paper);
+    font-weight: 600;
+  }
+  .chip.safe[aria-pressed="true"] { background: var(--safe); border-color: var(--safe); color: #fff; }
+  .chip.warn[aria-pressed="true"] { background: var(--warn); border-color: var(--warn); color: #fff; }
+  .chip.risk[aria-pressed="true"] { background: var(--risk); border-color: var(--risk); color: #fff; }
+
+  /* ---------- band group ---------- */
+  .band-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 30px 0 12px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--line);
+  }
+  .band-head:first-of-type { margin-top: 0; }
+  .band-head h3 {
+    font-family: var(--serif);
+    font-size: 17px;
+    margin: 0;
+    font-weight: 600;
+  }
+  .band-head .n {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-3);
+  }
+  .band-head .verdict {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .band-safe .verdict { color: var(--safe); }
+  .band-warn .verdict { color: var(--warn); }
+  .band-risk .verdict { color: var(--risk); }
+
+  /* ---------- role card ---------- */
+  .roles { display: grid; gap: 12px; }
+  .role {
+    display: grid;
+    grid-template-columns: 5px 1fr;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .role .stripe { background: var(--line-hard); }
+  .role.safe .stripe { background: var(--safe); }
+  .role.warn .stripe { background: var(--warn); }
+  .role.risk .stripe { background: var(--risk); }
+  .role .body { padding: 15px 17px 14px; min-width: 0; }
+
+  .role .top { display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; }
+  .role h4 {
+    font-family: var(--serif);
+    font-size: 17.5px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -.005em;
+    flex: 1 1 260px;
+  }
+  .role .co { color: var(--ink-2); font-size: 13px; margin-top: 2px; font-family: var(--sans); font-weight: 400; display: block; }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 9px 5px 7px;
+    border-radius: 4px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .safe .rating { background: var(--safe-sof); color: var(--safe); }
+  .warn .rating { background: var(--warn-sof); color: var(--warn); }
+  .risk .rating { background: var(--risk-sof); color: var(--risk); }
+  .rating .num { font-size: 15px; letter-spacing: 0; }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    margin-top: 12px;
+    font-size: 13px;
+  }
+  .meta div { display: flex; flex-direction: column; gap: 1px; }
+  .meta .lab {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .meta .val { font-variant-numeric: tabular-nums; }
+  .meta .val.rate { font-weight: 600; font-size: 14.5px; }
+  .meta .val.rate span { font-weight: 400; color: var(--ink-2); font-size: 12.5px; }
+
+  .evidence { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 5px; }
+  .ev {
+    font-size: 11.5px;
+    font-family: var(--mono);
+    padding: 3px 7px;
+    border-radius: 3px;
+    background: var(--card-2);
+    border: 1px solid var(--line);
+    color: var(--ink-2);
+  }
+  .ev.plus { color: var(--safe); border-color: color-mix(in srgb, var(--safe) 35%, transparent); }
+  .ev.minus { color: var(--risk); border-color: color-mix(in srgb, var(--risk) 35%, transparent); }
+
+  .action {
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-left: 2px solid var(--accent);
+    background: var(--accent-sof);
+    border-radius: 0 4px 4px 0;
+    font-size: 13px;
+  }
+  .action b {
+    display: block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 3px;
+  }
+  .action ol { margin: 6px 0 0; padding-left: 18px; }
+  .action li { margin: 2px 0; }
+
+  .role .foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+  .role .foot select { width: auto; min-width: 148px; }
+  .role .foot .spacer { flex: 1; }
+  .src {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .status-dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    display: inline-block; background: var(--ink-3);
+  }
+  .st-applied { background: var(--accent); }
+  .st-interview { background: var(--safe); }
+  .st-starred { background: var(--warn); }
+  .st-rejected { background: var(--risk); }
+
+  .empty {
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--ink-3);
+    border: 1px dashed var(--line-hard);
+    border-radius: 5px;
+    font-size: 13.5px;
+  }
+
+  /* ---------- tracker ---------- */
+  .track-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .track-col { padding: 14px; }
+  .track-col h3 {
+    font-family: var(--serif);
+    font-size: 16px;
+    margin: 0 0 2px;
+    font-weight: 600;
+  }
+  .track-col .n { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; }
+  .track-col ul { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+  .track-col li {
+    font-size: 13px;
+    padding: 9px 10px;
+    background: var(--card-2);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+  }
+  .track-col li .t { font-weight: 600; }
+  .track-col li .d { color: var(--ink-2); font-size: 12px; margin-top: 2px; font-variant-numeric: tabular-nums; }
+
+  /* ---------- checker ---------- */
+  .checker { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,320px); gap: 18px; align-items: start; }
+  @media (max-width: 800px) { .checker { grid-template-columns: 1fr; } }
+  .verdict-card { padding: 16px; }
+  .gauge { display: flex; gap: 3px; margin: 12px 0 10px; }
+  .gauge i {
+    flex: 1;
+    height: 22px;
+    border-radius: 2px;
+    background: var(--line);
+    display: block;
+  }
+  .gauge i.on.safe { background: var(--safe); }
+  .gauge i.on.warn { background: var(--warn); }
+  .gauge i.on.risk { background: var(--risk); }
+  .gauge-scale {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .big-verdict { font-family: var(--serif); font-size: 26px; margin: 10px 0 0; }
+  .safe .big-verdict, .big-verdict.safe { color: var(--safe); }
+  .big-verdict.warn { color: var(--warn); }
+  .big-verdict.risk { color: var(--risk); }
+
+  /* ---------- setup ---------- */
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+  .pad { padding: 16px; }
+  .board-links { display: grid; gap: 8px; }
+  .board-links a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--card-2);
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 13.5px;
+  }
+  .board-links a:hover { border-color: var(--accent); }
+  .board-links a span {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+
+  .note {
+    font-size: 12.5px;
+    color: var(--ink-2);
+    border-left: 2px solid var(--line-hard);
+    padding-left: 12px;
+    margin: 16px 0 0;
+  }
+
+  details.disclosure { margin-top: 14px; }
+  details.disclosure summary {
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  details.disclosure .inner { padding-top: 12px; }
+
+  .kw-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; font-size: 12.5px; }
+  .kw-cols h5 { margin: 0 0 6px; font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
+  .kw-cols ul { margin: 0; padding-left: 16px; color: var(--ink-2); }
+  .kw-cols li { margin: 2px 0; }
+
+  .toast {
+    position: fixed;
+    left: 50%;
+    bottom: 26px;
+    transform: translate(-50%, 16px);
+    background: var(--ink);
+    color: var(--paper);
+    padding: 9px 16px;
+    border-radius: 100px;
+    font-size: 13px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s ease, transform .18s ease;
+    z-index: 50;
+  }
+  .toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+
+  .out-md {
+    font-family: var(--mono);
+    font-size: 12px;
+    white-space: pre;
+    overflow-x: auto;
+    background: var(--card-2);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 14px;
+    max-height: 380px;
+    overflow-y: auto;
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="brand">
+      <h1>Contract Radar <em>· IR35 desk</em></h1>
+      <p>A working board for UK contract PM &amp; BA hunting: log what each scan turns up, score it against the IR35 indicators, and track every application through to offer.</p>
+    </div>
+    <div class="scanbar" id="scanbar"></div>
+  </header>
+
+  <section class="stats" id="stats"></section>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="roles">Opportunities <span class="count" id="c-roles"></span></button>
+    <button role="tab" aria-selected="false" data-tab="tracker">Tracker <span class="count" id="c-track"></span></button>
+    <button role="tab" aria-selected="false" data-tab="checker">IR35 checker</button>
+    <button role="tab" aria-selected="false" data-tab="add">Log a role</button>
+    <button role="tab" aria-selected="false" data-tab="setup">Search &amp; settings</button>
+    <button role="tab" aria-selected="false" data-tab="report">Report</button>
+  </nav>
+
+  <!-- ============ OPPORTUNITIES ============ -->
+  <section class="panel on" id="p-roles">
+    <div class="card filters">
+      <label class="fld grow"><span>Search</span>
+        <input type="text" id="f-q" placeholder="Company, title, location…">
+      </label>
+      <label class="fld" style="flex:0 0 130px"><span>Min £/day</span>
+        <input type="number" id="f-min" step="25" placeholder="any">
+      </label>
+      <label class="fld" style="flex:0 0 160px"><span>Sort</span>
+        <select id="f-sort">
+          <option value="ir35">IR35 rating</option>
+          <option value="rate">Highest rate</option>
+          <option value="added">Most recent</option>
+          <option value="company">Company A–Z</option>
+        </select>
+      </label>
+      <div class="fld" style="flex:1 1 auto">
+        <span style="display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px">Band</span>
+        <div class="chips" id="f-bands">
+          <button class="chip safe" data-band="safe" aria-pressed="true">Outside IR35</button>
+          <button class="chip warn" data-band="warn" aria-pressed="true">Ambiguous</button>
+          <button class="chip risk" data-band="risk" aria-pressed="true">Inside IR35</button>
+          <button class="chip" data-band="hideRejected" aria-pressed="true">Hide rejected</button>
+        </div>
+      </div>
+    </div>
+    <div id="roles-out"></div>
+  </section>
+
+  <!-- ============ TRACKER ============ -->
+  <section class="panel" id="p-tracker">
+    <h2 class="sec">Application status</h2>
+    <p class="sub">Driven by the status you set on each role card — change it there and this board updates.</p>
+    <div class="track-grid" id="track-out"></div>
+  </section>
+
+  <!-- ============ CHECKER ============ -->
+  <section class="panel" id="p-checker">
+    <h2 class="sec">Paste a job advert, get an IR35 read</h2>
+    <p class="sub">Scores the wording against the outside-IR35 indicators and inside-IR35 red flags. This is a language signal, not a status determination — the client's SDS and your accountant decide the real thing.</p>
+    <div class="checker">
+      <div>
+        <label class="fld"><span>Job description text</span>
+          <textarea id="chk-text" rows="16" placeholder="Paste the full advert here — the more of it, the better the read."></textarea>
+        </label>
+        <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
+          <button class="btn primary" id="chk-run">Assess wording</button>
+          <button class="btn" id="chk-clear">Clear</button>
+          <button class="btn" id="chk-save" hidden>Log this as a role →</button>
+        </div>
+      </div>
+      <div class="card verdict-card" id="chk-out">
+        <div class="src">Awaiting text</div>
+        <div class="gauge">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="gauge-scale"><span>1 · outside</span><span>10 · inside</span></div>
+        <p class="sub" style="margin:14px 0 0">Paste an advert on the left and the rating, matched phrases and recruiter questions appear here.</p>
+      </div>
+    </div>
+    <details class="disclosure">
+      <summary>The indicator list this uses</summary>
+      <div class="inner kw-cols">
+        <div>
+          <h5 style="color:var(--safe)">Outside signals</h5>
+          <ul id="kw-out"></ul>
+        </div>
+        <div>
+          <h5 style="color:var(--risk)">Inside red flags</h5>
+          <ul id="kw-in"></ul>
+        </div>
+        <div>
+          <h5 style="color:var(--warn)">Ambiguous</h5>
+          <ul>
+            <li>No IR35 mention anywhere</li>
+            <li>Outside language mixed with integration language</li>
+            <li>Engagement structure never stated</li>
+            <li>Rate quoted as salary equivalent only</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ============ ADD ============ -->
+  <section class="panel" id="p-add">
+    <h2 class="sec">Log a role</h2>
+    <p class="sub">One card per opportunity. Rating drives which band it lands in — 1–3 outside, 4–6 ambiguous, 7–10 inside.</p>
+    <div class="card pad">
+      <div class="grid2">
+        <label class="fld"><span>Role title</span><input type="text" id="a-title" placeholder="Contract Project Manager — Digital Transformation"></label>
+        <label class="fld"><span>Company</span><input type="text" id="a-company" placeholder="Telefónica UK"></label>
+        <label class="fld"><span>Day rate £</span><input type="number" id="a-rate" step="25" placeholder="550"></label>
+        <label class="fld"><span>Contract length</span><input type="text" id="a-length" placeholder="6 months"></label>
+        <label class="fld"><span>Location</span><input type="text" id="a-location" placeholder="London (hybrid)"></label>
+        <label class="fld"><span>Source board</span>
+          <select id="a-source">
+            <option>LinkedIn</option><option>Totaljobs</option><option>CWJobs</option>
+            <option>Technojobs</option><option>Recruiter direct</option><option>Other</option>
+          </select>
+        </label>
+        <label class="fld"><span>IR35 rating (1–10)</span><input type="number" id="a-rating" min="1" max="10" step="1" placeholder="1"></label>
+        <label class="fld"><span>Link</span><input type="url" id="a-url" placeholder="https://…"></label>
+      </div>
+      <div style="margin-top:14px" class="grid2">
+        <label class="fld"><span>Evidence — outside signals (comma separated)</span><input type="text" id="a-ev-plus" placeholder="Outside IR35 stated, invoice via own company"></label>
+        <label class="fld"><span>Evidence — inside signals (comma separated)</span><input type="text" id="a-ev-minus" placeholder="full-time delivery, staff benefits"></label>
+      </div>
+      <label class="fld" style="margin-top:14px"><span>Recommended action / notes</span><input type="text" id="a-notes" placeholder="Apply today — rate at top of range"></label>
+      <div style="margin-top:16px;display:flex;gap:8px">
+        <button class="btn primary" id="a-save">Add to board</button>
+        <button class="btn" id="a-reset">Clear form</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SETUP ============ -->
+  <section class="panel" id="p-setup">
+    <div class="grid2" style="align-items:start;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+      <div class="card pad">
+        <h2 class="sec">Search brief</h2>
+        <p class="sub">Sets the stat thresholds and builds the board links below.</p>
+        <div class="grid2">
+          <label class="fld"><span>Rate floor £/day</span><input type="number" id="s-min" step="25"></label>
+          <label class="fld"><span>Rate ceiling £/day</span><input type="number" id="s-max" step="25"></label>
+        </div>
+        <div class="grid2" style="margin-top:12px">
+          <label class="fld"><span>Target roles</span>
+            <select id="s-roles"><option value="both">PM and BA</option><option value="pm">Project Manager</option><option value="ba">Business Analyst</option></select>
+          </label>
+          <label class="fld"><span>Location</span>
+            <select id="s-loc"><option>Remote</option><option>London</option><option>UK-wide</option><option>Hybrid</option></select>
+          </label>
+        </div>
+        <div class="grid2" style="margin-top:12px">
+          <label class="fld"><span>Sectors</span><input type="text" id="s-sectors" placeholder="Telecoms, Finance, Tech"></label>
+          <label class="fld"><span>Contract length</span><input type="text" id="s-len" placeholder="3–12 months"></label>
+        </div>
+        <label class="fld" style="margin-top:12px"><span>Scan times</span><input type="text" id="s-times" placeholder="07:00, 13:00, 18:00"></label>
+        <label class="fld" style="margin-top:12px"><span>Billable days per year (for annual equivalent)</span><input type="number" id="s-days" step="5"></label>
+        <div style="margin-top:16px"><button class="btn primary" id="s-save">Save brief</button></div>
+      </div>
+
+      <div class="card pad">
+        <h2 class="sec">Board searches</h2>
+        <p class="sub">Pre-filtered to contract work matching the brief. Opens in a new tab.</p>
+        <div class="board-links" id="board-links"></div>
+        <p class="note">This page can't crawl the boards itself — it's the desk where the results live. Run each scan, then log the roles here or paste them into the checker.</p>
+      </div>
+
+      <div class="card pad">
+        <h2 class="sec">Your data</h2>
+        <p class="sub">Everything is stored in this browser only. Export before switching machines.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn" id="d-export">Export JSON</button>
+          <button class="btn" id="d-import">Import JSON</button>
+          <button class="btn" id="d-sample">Load sample roles</button>
+          <button class="btn ghost" id="d-wipe">Delete everything</button>
+        </div>
+        <label class="fld" style="margin-top:14px" id="imp-wrap" hidden><span>Paste exported JSON, then press import again</span>
+          <textarea id="d-json" rows="6"></textarea>
+        </label>
+        <p class="note">IR35 ratings here are a reading of advert language. Get the client's Status Determination Statement and run anything borderline past your accountant before you sign.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REPORT ============ -->
+  <section class="panel" id="p-report">
+    <h2 class="sec">Scan report</h2>
+    <p class="sub">The current board in the markdown layout from the brief — copy it into your notes folder or Drive after each scan.</p>
+    <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+      <button class="btn primary" id="r-copy">Copy markdown</button>
+      <button class="btn" id="r-refresh">Rebuild</button>
+    </div>
+    <div class="out-md" id="report-out"></div>
+  </section>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  var KEY = "contract-radar-v1";
+  var BAND_LABEL = { safe: "Outside IR35", warn: "Ambiguous", risk: "Inside IR35" };
+
+  var OUTSIDE = [
+    "outside ir35", "outside of ir35", "own invoice", "invoice via", "limited company",
+    "ltd company", "psc", "umbrella company", "self-employed", "self employed",
+    "independent contractor", "own vehicle", "substitute", "substitution",
+    "right of substitution", "day rate contract", "statement of work",
+    "deliverable based", "no notice period", "outside determination"
+  ];
+  var INSIDE = [
+    "inside ir35", "full-time placement", "full time placement", "integrated into",
+    "part of the team", "staff benefits", "employee benefits", "holiday pay",
+    "pension contribution", "exclusive services", "company induction", "line managed",
+    "reports directly to", "manage your schedule", "fixed hours", "core hours",
+    "annual leave", "performance review", "probation", "paye", "deemed employee",
+    "40 hours per week", "sick pay"
+  ];
+
+  var SAMPLE = [
+    { title: "Contract Project Manager — Digital Transformation", company: "Telefónica UK", rate: 550,
+      length: "6 months", location: "London (hybrid)", source: "LinkedIn", url: "", rating: 1,
+      evPlus: ["Outside IR35 explicitly stated", "Invoice via own company", "Independent contractor"],
+      evMinus: [], notes: "Apply today — rate at top of range, sector match.", status: "new" },
+    { title: "Contract Business Analyst — Finance", company: "HSBC", rate: 525,
+      length: "4 months", location: "Remote", source: "CWJobs", url: "", rating: 2,
+      evPlus: ["Engage through own vehicle", "No employee benefits mentioned"], evMinus: [],
+      notes: "Apply — confirm remote is fully remote, not 2 days on site.", status: "new" },
+    { title: "Programme Manager — Elective Recovery", company: "NHS England", rate: 480,
+      length: "9 months", location: "Leeds (hybrid)", source: "Totaljobs", url: "", rating: 5,
+      evPlus: [], evMinus: ["IR35 not mentioned", "“full-time delivery” language"],
+      notes: "Call the recruiter before applying — public sector, likely inside.", status: "new" },
+    { title: "Senior Project Manager — Cloud Migration", company: "Accenture", rate: 500,
+      length: "12 months", location: "London", source: "LinkedIn", url: "", rating: 8,
+      evPlus: [], evMinus: ["Full-time placement", "Integrated into team", "Staff benefits"],
+      notes: "Skip — reads as a disguised permanent role.", status: "rejected" }
+  ];
+
+  var DEFAULTS = {
+    prefs: { min: 400, max: 700, roles: "both", loc: "Remote", sectors: "Telecoms, Finance, Tech",
+             len: "3–12 months", times: "07:00, 13:00, 18:00", days: 220 },
+    roles: [],
+    dismissed: [],
+    feedAt: null,
+    seeded: false
+  };
+
+  var state = load();
+  var filters = { q: "", min: null, sort: "ir35", safe: true, warn: true, risk: true, hideRejected: true };
+  var lastCheck = null;
+
+  /* ---------------- storage ---------------- */
+  function load() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (!raw) return clone(DEFAULTS);
+      var d = JSON.parse(raw);
+      d.prefs = Object.assign({}, DEFAULTS.prefs, d.prefs || {});
+      d.roles = Array.isArray(d.roles) ? d.roles : [];
+      d.dismissed = Array.isArray(d.dismissed) ? d.dismissed : [];
+      return d;
+    } catch (e) { return clone(DEFAULTS); }
+  }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); }
+    catch (e) { toast("Couldn't save — browser storage is blocked"); }
+  }
+  function clone(o) { return JSON.parse(JSON.stringify(o)); }
+
+  /* ---------------- helpers ---------------- */
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function bandOf(r) { return r <= 3 ? "safe" : r <= 6 ? "warn" : "risk"; }
+  function money(n) { return "£" + Number(n || 0).toLocaleString("en-GB"); }
+  function annual(rate) { return money(Math.round(Number(rate || 0) * Number(state.prefs.days || 220))); }
+  function uid() { return "r" + Math.random().toString(36).slice(2, 9) + Date.now().toString(36).slice(-4); }
+  function today() {
+    var d = new Date();
+    return d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+  }
+  function stamp() {
+    var d = new Date();
+    return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }) +
+           " · " + d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+  }
+  var toastT;
+  function toast(msg) {
+    var el = document.getElementById("toast");
+    el.textContent = msg;
+    el.classList.add("on");
+    clearTimeout(toastT);
+    toastT = setTimeout(function () { el.classList.remove("on"); }, 2200);
+  }
+
+  /* ---------------- IR35 scoring ---------------- */
+  function assess(text) {
+    var t = " " + String(text || "").toLowerCase().replace(/\s+/g, " ") + " ";
+    var plus = [], minus = [];
+    OUTSIDE.forEach(function (k) { if (t.indexOf(k) > -1) plus.push(k); });
+    INSIDE.forEach(function (k) { if (t.indexOf(k) > -1) minus.push(k); });
+
+    var score = 5;
+    if (t.indexOf("outside ir35") > -1 || t.indexOf("outside of ir35") > -1) score -= 2.5;
+    if (t.indexOf("inside ir35") > -1 || t.indexOf("paye") > -1) score += 2.5;
+    score -= plus.length * 0.9;
+    score += minus.length * 0.9;
+    if (!plus.length && !minus.length) score = 5;
+    score = Math.max(1, Math.min(10, Math.round(score)));
+
+    return { rating: score, plus: plus, minus: minus,
+             mentions: t.indexOf("ir35") > -1, words: (text || "").trim().split(/\s+/).length };
+  }
+
+  var QUESTIONS = [
+    "Is this role inside or outside IR35, and can you send the Status Determination Statement?",
+    "Can I invoice through my own limited company, or is it umbrella/PAYE only?",
+    "Do I have a right of substitution written into the contract?",
+    "Who controls how and when the work gets done — me or the client?",
+    "Is the engagement scoped to deliverables, or to fixed hours?"
+  ];
+
+  /* ---------------- rendering ---------------- */
+  function visibleRoles() {
+    var q = filters.q.toLowerCase();
+    var out = state.roles.filter(function (r) {
+      var b = bandOf(r.rating);
+      if (!filters[b]) return false;
+      if (filters.hideRejected && r.status === "rejected") return false;
+      if (filters.min != null && Number(r.rate) < filters.min) return false;
+      if (q) {
+        var hay = (r.title + " " + r.company + " " + r.location + " " + r.source).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+    out.sort(function (a, b) {
+      if (filters.sort === "rate") return b.rate - a.rate;
+      if (filters.sort === "added") return (b.added || 0) - (a.added || 0);
+      if (filters.sort === "company") return String(a.company).localeCompare(String(b.company));
+      return a.rating - b.rating || b.rate - a.rate;
+    });
+    return out;
+  }
+
+  function renderStats() {
+    var all = state.roles;
+    var safe = all.filter(function (r) { return bandOf(r.rating) === "safe"; }).length;
+    var warn = all.filter(function (r) { return bandOf(r.rating) === "warn"; }).length;
+    var risk = all.filter(function (r) { return bandOf(r.rating) === "risk"; }).length;
+    var live = all.filter(function (r) { return r.status !== "rejected"; });
+    var avg = live.length ? Math.round(live.reduce(function (s, r) { return s + Number(r.rate || 0); }, 0) / live.length) : 0;
+    var applied = all.filter(function (r) { return r.status === "applied" || r.status === "interview"; }).length;
+
+    document.getElementById("stats").innerHTML = [
+      stat("Roles on board", all.length, ""),
+      stat("Outside IR35", safe, "safe"),
+      stat("Ambiguous", warn, "warn"),
+      stat("Inside IR35", risk, "risk"),
+      stat("Avg live rate", avg ? money(avg) + "<small> /day</small>" : "—", ""),
+      stat("Applied", applied, "")
+    ].join("");
+
+    document.getElementById("c-roles").textContent = all.length ? all.length : "";
+    document.getElementById("c-track").textContent = applied ? applied : "";
+  }
+  function stat(k, v, cls) {
+    return '<div class="stat ' + cls + '"><div class="k">' + k + '</div><div class="v">' + v + "</div></div>";
+  }
+
+  function renderScanbar() {
+    var times = String(state.prefs.times || "").split(",").map(function (s) { return s.trim(); }).filter(Boolean);
+    document.getElementById("scanbar").innerHTML =
+      "<span>Scans</span>" + times.map(function (t) { return "<b>" + esc(t) + "</b>"; }).join("") +
+      '<span style="margin-left:6px">' + esc(state.prefs.loc) + " · " + money(state.prefs.min) + "–" + money(state.prefs.max) + "</span>" +
+      '<span style="margin-left:6px">' + esc(feedAge()) + "</span>";
+  }
+
+  /* How stale is the board? Silence is the failure mode to catch — a workflow that
+     quietly stopped running looks identical to a quiet job market. */
+  function feedAge() {
+    if (!state.feedAt) return "· manual entry";
+    var mins = Math.round((Date.now() - new Date(state.feedAt).getTime()) / 60000);
+    if (isNaN(mins)) return "";
+    if (mins < 90) return "· scanned " + mins + "m ago";
+    var hrs = Math.round(mins / 60);
+    if (hrs < 36) return "· scanned " + hrs + "h ago";
+    return "· last scan " + Math.round(hrs / 24) + "d ago — check the workflow";
+  }
+
+  function roleCard(r) {
+    var b = bandOf(r.rating);
+    var verdict = b === "safe" ? (r.rating <= 2 ? "Very safe" : "Safe") : b === "warn" ? "Unclear" : "High risk";
+    var ev = (r.evPlus || []).map(function (e) { return '<span class="ev plus">+ ' + esc(e) + "</span>"; })
+      .concat((r.evMinus || []).map(function (e) { return '<span class="ev minus">− ' + esc(e) + "</span>"; })).join("");
+
+    var actionBlock = "";
+    if (b === "warn") {
+      actionBlock = '<div class="action"><b>Ask the recruiter</b><ol>' +
+        QUESTIONS.slice(0, 3).map(function (q) { return "<li>" + esc(q) + "</li>"; }).join("") + "</ol></div>";
+    } else if (r.notes) {
+      actionBlock = '<div class="action"><b>Action</b>' + esc(r.notes) + "</div>";
+    }
+    if (b === "warn" && r.notes) {
+      actionBlock = '<div class="action"><b>Action</b>' + esc(r.notes) + "</div>" + actionBlock;
+    }
+
+    var statuses = [["new", "New"], ["starred", "Starred for later"], ["applied", "Applied"],
+                    ["interview", "Interview stage"], ["rejected", "Rejected / skipped"]];
+
+    return '<article class="role ' + b + '" data-id="' + r.id + '"><div class="stripe"></div><div class="body">' +
+      '<div class="top"><h4>' + esc(r.title) + '<span class="co">' + esc(r.company) + "</span></h4>" +
+      '<div class="rating"><span class="num">' + r.rating + "/10</span> " + verdict + "</div></div>" +
+      '<div class="meta">' +
+        '<div><span class="lab">Day rate</span><span class="val rate">' + money(r.rate) + " <span>/day · " + annual(r.rate) + " a year</span></span></div>" +
+        '<div><span class="lab">Length</span><span class="val">' + esc(r.length || "—") + "</span></div>" +
+        '<div><span class="lab">Location</span><span class="val">' + esc(r.location || "—") + "</span></div>" +
+        '<div><span class="lab">Band</span><span class="val">' + BAND_LABEL[b] + "</span></div>" +
+      "</div>" +
+      (ev ? '<div class="evidence">' + ev + "</div>" : "") +
+      actionBlock +
+      '<div class="foot">' +
+        '<span class="status-dot st-' + esc(r.status) + '"></span>' +
+        '<select data-act="status">' + statuses.map(function (s) {
+          return '<option value="' + s[0] + '"' + (r.status === s[0] ? " selected" : "") + ">" + s[1] + "</option>";
+        }).join("") + "</select>" +
+        (r.url ? '<a class="btn" href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">Open advert ↗</a>' : "") +
+        '<span class="spacer"></span>' +
+        '<span class="src">' + esc(r.source || "—") + (r.added ? " · logged " + esc(r.addedLabel || "") : "") + "</span>" +
+        '<button class="btn ghost" data-act="del">Remove</button>' +
+      "</div></div></article>";
+  }
+
+  function renderRoles() {
+    var list = visibleRoles();
+    var host = document.getElementById("roles-out");
+    if (!state.roles.length) {
+      host.innerHTML = '<div class="empty">Nothing logged yet. Run a scan, then use <b>Log a role</b> — or load the sample roles from Search &amp; settings to see the layout.</div>';
+      return;
+    }
+    if (!list.length) { host.innerHTML = '<div class="empty">No roles match these filters.</div>'; return; }
+
+    var groups = [
+      ["safe", "Outside IR35 — apply to these", "Apply within 24 hours"],
+      ["warn", "Ambiguous — clarify first", "Call before applying"],
+      ["risk", "Inside IR35 — skip", "Not worth the exposure"]
+    ];
+    host.innerHTML = groups.map(function (g) {
+      var rs = list.filter(function (r) { return bandOf(r.rating) === g[0]; });
+      if (!rs.length) return "";
+      return '<div class="band-head band-' + g[0] + '"><h3>' + g[1] + '</h3><span class="n">' + rs.length +
+        '</span><span class="verdict">' + g[2] + '</span></div><div class="roles">' +
+        rs.map(roleCard).join("") + "</div>";
+    }).join("");
+  }
+
+  function renderTracker() {
+    var cols = [
+      ["applied", "Applied &amp; waiting", "Chase after 5 working days"],
+      ["interview", "In process", "Prep and confirm rate"],
+      ["starred", "Starred for later", "Decide or drop"],
+      ["new", "Not actioned", "Triage these next"],
+      ["rejected", "Rejected / skipped", "Kept for the record"]
+    ];
+    document.getElementById("track-out").innerHTML = cols.map(function (c) {
+      var rs = state.roles.filter(function (r) { return r.status === c[0]; });
+      return '<div class="card track-col"><h3>' + c[1] + '</h3><div class="n">' + rs.length + " · " + c[2] + "</div><ul>" +
+        (rs.length ? rs.map(function (r) {
+          return "<li><span class='t'>" + esc(r.company) + "</span> — " + esc(r.title) +
+            "<div class='d'>" + money(r.rate) + "/day · " + r.rating + "/10 · " + esc(r.addedLabel || "") + "</div></li>";
+        }).join("") : "<li style='color:var(--ink-3)'>Empty</li>") + "</ul></div>";
+    }).join("");
+  }
+
+  function renderBoards() {
+    var p = state.prefs;
+    var kw = p.roles === "pm" ? "project manager" : p.roles === "ba" ? "business analyst" : "project manager OR business analyst";
+    var slugs = p.roles === "ba" ? [["business-analyst", "BA"]]
+              : p.roles === "pm" ? [["project-manager", "PM"]]
+              : [["project-manager", "PM"], ["business-analyst", "BA"]];
+    var locQ = p.loc === "London" ? "London" : "United Kingdom";
+
+    var links = [["LinkedIn", "https://www.linkedin.com/jobs/search/?keywords=" + encodeURIComponent(kw) +
+                  "&f_JT=C&location=" + encodeURIComponent(locQ), "contract filter on"]];
+    slugs.forEach(function (s) {
+      links.push(["Totaljobs — " + s[1], "https://www.totaljobs.com/jobs/contract/" + s[0] + "?postedWithin=1", "posted in last 24h"]);
+    });
+    slugs.forEach(function (s) {
+      links.push(["CWJobs — " + s[1], "https://www.cwjobs.co.uk/jobs/contract/" + s[0] + "?postedWithin=1", "posted in last 24h"]);
+    });
+    links.push(["Technojobs", "https://www.technojobs.co.uk/search.phtml?keyword=" + encodeURIComponent(kw) + "&jobtype=contract", "contract only"]);
+    links.push(["Google — outside IR35", "https://www.google.com/search?q=" +
+      encodeURIComponent('"outside ir35" ' + kw + " contract " + p.loc + " site:linkedin.com OR site:cwjobs.co.uk"), "phrase search"]);
+    document.getElementById("board-links").innerHTML = links.map(function (l) {
+      return '<a href="' + esc(l[1]) + '" target="_blank" rel="noopener noreferrer">' + esc(l[0]) + "<span>" + esc(l[2]) + " ↗</span></a>";
+    }).join("");
+  }
+
+  function renderPrefs() {
+    var p = state.prefs;
+    document.getElementById("s-min").value = p.min;
+    document.getElementById("s-max").value = p.max;
+    document.getElementById("s-roles").value = p.roles;
+    document.getElementById("s-loc").value = p.loc;
+    document.getElementById("s-sectors").value = p.sectors;
+    document.getElementById("s-len").value = p.len;
+    document.getElementById("s-times").value = p.times;
+    document.getElementById("s-days").value = p.days;
+  }
+
+  function buildReport() {
+    var all = state.roles.slice().sort(function (a, b) { return a.rating - b.rating; });
+    var live = all.filter(function (r) { return r.status !== "rejected"; });
+    var avg = live.length ? Math.round(live.reduce(function (s, r) { return s + Number(r.rate || 0); }, 0) / live.length) : 0;
+    var L = [];
+    L.push("# Contract Opportunities — " + stamp());
+    L.push("");
+    L.push("**Scan brief:** " + money(state.prefs.min) + "–" + money(state.prefs.max) + "/day · " +
+      (state.prefs.roles === "both" ? "PM + BA" : state.prefs.roles.toUpperCase()) + " · " + state.prefs.loc +
+      " · " + state.prefs.sectors);
+    L.push("**Stats:** " + all.length + " roles on board · avg " + money(avg) + "/day");
+    L.push("");
+
+    [["safe", "OUTSIDE IR35 — Apply to these"], ["warn", "AMBIGUOUS — Needs clarification"], ["risk", "INSIDE IR35 — Skip"]]
+      .forEach(function (g) {
+        var rs = all.filter(function (r) { return bandOf(r.rating) === g[0]; });
+        if (!rs.length) return;
+        L.push("## " + g[1] + " (" + rs.length + ")");
+        L.push("");
+        rs.forEach(function (r) {
+          L.push("### " + r.title);
+          L.push("- Company: " + r.company);
+          L.push("- Daily Rate: " + money(r.rate) + "/day (~" + annual(r.rate) + "/yr)");
+          L.push("- Contract Length: " + (r.length || "—"));
+          L.push("- Location: " + (r.location || "—"));
+          L.push("- Source: " + (r.source || "—"));
+          L.push("- IR35 Rating: " + r.rating + "/10");
+          if ((r.evPlus || []).length) L.push("- Outside signals: " + r.evPlus.join("; "));
+          if ((r.evMinus || []).length) L.push("- Inside signals: " + r.evMinus.join("; "));
+          if (g[0] === "warn") {
+            L.push("- Ask the recruiter:");
+            QUESTIONS.slice(0, 3).forEach(function (q, i) { L.push("  " + (i + 1) + ". " + q); });
+          }
+          if (r.notes) L.push("- Action: " + r.notes);
+          if (r.url) L.push("- Link: " + r.url);
+          L.push("- Status: " + r.status);
+          L.push("");
+        });
+        L.push("---");
+        L.push("");
+      });
+
+    L.push("## Tracker");
+    L.push("");
+    [["applied", "Applied & waiting"], ["interview", "In process"], ["starred", "Starred for later"], ["rejected", "Rejected"]]
+      .forEach(function (c) {
+        var rs = all.filter(function (r) { return r.status === c[0]; });
+        L.push("### " + c[1]);
+        if (!rs.length) L.push("- (none)");
+        rs.forEach(function (r) { L.push("- [" + (r.addedLabel || today()) + "] " + r.company + " — " + r.title); });
+        L.push("");
+      });
+    L.push("_IR35 ratings read advert language only. Confirm with the client's SDS and your accountant._");
+    return L.join("\n");
+  }
+
+  function renderReport() { document.getElementById("report-out").textContent = buildReport(); }
+
+  function renderAll() {
+    renderStats(); renderScanbar(); renderRoles(); renderTracker(); renderBoards(); renderReport();
+  }
+
+  /* ---------------- events ---------------- */
+  document.querySelector("nav.tabs").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-tab]");
+    if (!b) return;
+    document.querySelectorAll("nav.tabs button").forEach(function (x) { x.setAttribute("aria-selected", String(x === b)); });
+    document.querySelectorAll(".panel").forEach(function (p) { p.classList.remove("on"); });
+    document.getElementById("p-" + b.dataset.tab).classList.add("on");
+    if (b.dataset.tab === "report") renderReport();
+  });
+
+  document.getElementById("f-q").addEventListener("input", function (e) { filters.q = e.target.value; renderRoles(); });
+  document.getElementById("f-min").addEventListener("input", function (e) {
+    filters.min = e.target.value === "" ? null : Number(e.target.value); renderRoles();
+  });
+  document.getElementById("f-sort").addEventListener("change", function (e) { filters.sort = e.target.value; renderRoles(); });
+  document.getElementById("f-bands").addEventListener("click", function (e) {
+    var c = e.target.closest(".chip"); if (!c) return;
+    var on = c.getAttribute("aria-pressed") !== "true";
+    c.setAttribute("aria-pressed", String(on));
+    filters[c.dataset.band] = on;
+    renderRoles();
+  });
+
+  document.getElementById("roles-out").addEventListener("change", function (e) {
+    var sel = e.target.closest("select[data-act='status']"); if (!sel) return;
+    var id = e.target.closest(".role").dataset.id;
+    var r = state.roles.find(function (x) { return x.id === id; });
+    if (!r) return;
+    r.status = sel.value;
+    save(); renderAll();
+    toast("Marked " + r.company + " as " + sel.value);
+  });
+  document.getElementById("roles-out").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-act='del']"); if (!b) return;
+    var id = e.target.closest(".role").dataset.id;
+    var gone = state.roles.find(function (x) { return x.id === id; });
+    // Remember feed roles we've removed, or the next scan puts them straight back.
+    if (gone && gone.fromFeed && state.dismissed.indexOf(id) === -1) state.dismissed.push(id);
+    state.roles = state.roles.filter(function (x) { return x.id !== id; });
+    save(); renderAll(); toast("Role removed");
+  });
+
+  /* ----- checker ----- */
+  function splitList(v) {
+    return String(v || "").split(",").map(function (s) { return s.trim(); }).filter(Boolean);
+  }
+  document.getElementById("chk-run").addEventListener("click", function () {
+    var txt = document.getElementById("chk-text").value;
+    if (txt.trim().length < 40) { toast("Paste a bit more of the advert first"); return; }
+    var a = assess(txt);
+    lastCheck = a;
+    var band = bandOf(a.rating);
+    var verdict = band === "safe" ? "Reads as outside IR35" : band === "warn" ? "Genuinely ambiguous" : "Reads as inside IR35";
+    var html = '<div class="src">' + a.words + " words assessed · " + (a.mentions ? "IR35 mentioned" : "IR35 never mentioned") + "</div>";
+    html += '<div class="gauge">';
+    for (var i = 1; i <= 10; i++) html += "<i class='" + (i <= a.rating ? "on " + band : "") + "'></i>";
+    html += '</div><div class="gauge-scale"><span>1 · outside</span><span>10 · inside</span></div>';
+    html += '<p class="big-verdict ' + band + '">' + a.rating + "/10 — " + verdict + "</p>";
+
+    if (a.plus.length) {
+      html += '<p class="sub" style="margin:14px 0 6px"><b style="color:var(--safe)">Outside signals found</b></p><div class="evidence">' +
+        a.plus.map(function (k) { return '<span class="ev plus">' + esc(k) + "</span>"; }).join("") + "</div>";
+    }
+    if (a.minus.length) {
+      html += '<p class="sub" style="margin:14px 0 6px"><b style="color:var(--risk)">Red flags found</b></p><div class="evidence">' +
+        a.minus.map(function (k) { return '<span class="ev minus">' + esc(k) + "</span>"; }).join("") + "</div>";
+    }
+    if (!a.plus.length && !a.minus.length) {
+      html += '<p class="sub" style="margin-top:14px">No IR35 language either way — treat as ambiguous and ask before applying.</p>';
+    }
+    if (band !== "safe") {
+      html += '<div class="action"><b>Ask the recruiter</b><ol>' +
+        QUESTIONS.map(function (q) { return "<li>" + esc(q) + "</li>"; }).join("") + "</ol></div>";
+    }
+    html += '<p class="note" style="margin-top:14px">Language signal only — not a status determination.</p>';
+    document.getElementById("chk-out").innerHTML = html;
+    document.getElementById("chk-save").hidden = false;
+  });
+  document.getElementById("chk-clear").addEventListener("click", function () {
+    document.getElementById("chk-text").value = "";
+    document.getElementById("chk-save").hidden = true;
+    lastCheck = null;
+    document.getElementById("chk-out").innerHTML =
+      '<div class="src">Awaiting text</div><div class="gauge"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>' +
+      '<div class="gauge-scale"><span>1 · outside</span><span>10 · inside</span></div>' +
+      '<p class="sub" style="margin:14px 0 0">Paste an advert on the left and the rating, matched phrases and recruiter questions appear here.</p>';
+  });
+  document.getElementById("chk-save").addEventListener("click", function () {
+    if (!lastCheck) return;
+    document.getElementById("a-rating").value = lastCheck.rating;
+    document.getElementById("a-ev-plus").value = lastCheck.plus.join(", ");
+    document.getElementById("a-ev-minus").value = lastCheck.minus.join(", ");
+    document.querySelector("nav.tabs button[data-tab='add']").click();
+    document.getElementById("a-title").focus();
+    toast("Rating carried over — fill in the rest");
+  });
+
+  /* ----- add ----- */
+  document.getElementById("a-save").addEventListener("click", function () {
+    var title = document.getElementById("a-title").value.trim();
+    var company = document.getElementById("a-company").value.trim();
+    var rating = Number(document.getElementById("a-rating").value);
+    if (!title || !company) { toast("Role title and company are required"); return; }
+    if (!(rating >= 1 && rating <= 10)) { toast("Give an IR35 rating between 1 and 10"); return; }
+    state.roles.unshift({
+      id: uid(), title: title, company: company,
+      rate: Number(document.getElementById("a-rate").value) || 0,
+      length: document.getElementById("a-length").value.trim(),
+      location: document.getElementById("a-location").value.trim(),
+      source: document.getElementById("a-source").value,
+      url: document.getElementById("a-url").value.trim(),
+      rating: Math.round(rating),
+      evPlus: splitList(document.getElementById("a-ev-plus").value),
+      evMinus: splitList(document.getElementById("a-ev-minus").value),
+      notes: document.getElementById("a-notes").value.trim(),
+      status: "new", added: Date.now(), addedLabel: today()
+    });
+    save(); renderAll(); resetForm();
+    document.querySelector("nav.tabs button[data-tab='roles']").click();
+    toast("Added " + company);
+  });
+  function resetForm() {
+    ["a-title", "a-company", "a-rate", "a-length", "a-location", "a-url", "a-rating", "a-ev-plus", "a-ev-minus", "a-notes"]
+      .forEach(function (id) { document.getElementById(id).value = ""; });
+  }
+  document.getElementById("a-reset").addEventListener("click", resetForm);
+
+  /* ----- settings ----- */
+  document.getElementById("s-save").addEventListener("click", function () {
+    state.prefs = {
+      min: Number(document.getElementById("s-min").value) || 0,
+      max: Number(document.getElementById("s-max").value) || 0,
+      roles: document.getElementById("s-roles").value,
+      loc: document.getElementById("s-loc").value,
+      sectors: document.getElementById("s-sectors").value.trim(),
+      len: document.getElementById("s-len").value.trim(),
+      times: document.getElementById("s-times").value.trim(),
+      days: Number(document.getElementById("s-days").value) || 220
+    };
+    save(); renderAll(); toast("Brief saved");
+  });
+
+  document.getElementById("d-export").addEventListener("click", function () {
+    var w = document.getElementById("imp-wrap");
+    w.hidden = false;
+    document.getElementById("d-json").value = JSON.stringify(state, null, 2);
+    document.getElementById("d-json").select();
+    if (navigator.clipboard) navigator.clipboard.writeText(JSON.stringify(state, null, 2)).then(function () { toast("Copied to clipboard"); }, function () { toast("Select and copy the text"); });
+    else toast("Select and copy the text");
+  });
+  document.getElementById("d-import").addEventListener("click", function () {
+    var w = document.getElementById("imp-wrap");
+    var ta = document.getElementById("d-json");
+    if (w.hidden || !ta.value.trim()) { w.hidden = false; ta.value = ""; ta.focus(); toast("Paste your JSON, then press Import again"); return; }
+    try {
+      var d = JSON.parse(ta.value);
+      if (!Array.isArray(d.roles)) throw new Error("no roles array");
+      state.roles = d.roles;
+      state.prefs = Object.assign({}, DEFAULTS.prefs, d.prefs || {});
+      state.dismissed = Array.isArray(d.dismissed) ? d.dismissed : [];
+      state.feedAt = d.feedAt || null;
+      state.seeded = true;
+      save(); renderPrefs(); renderAll();
+      w.hidden = true; ta.value = "";
+      toast("Imported " + state.roles.length + " roles");
+    } catch (err) { toast("That isn't valid export JSON"); }
+  });
+  document.getElementById("d-sample").addEventListener("click", function () {
+    SAMPLE.forEach(function (s) {
+      state.roles.push(Object.assign({ id: uid(), added: Date.now(), addedLabel: today() }, s));
+    });
+    state.seeded = true;
+    save(); renderAll();
+    document.querySelector("nav.tabs button[data-tab='roles']").click();
+    toast("Sample roles loaded");
+  });
+  document.getElementById("d-wipe").addEventListener("click", function () {
+    if (!confirm("Delete every role and reset the brief? This can't be undone.")) return;
+    state = clone(DEFAULTS);
+    save(); renderPrefs(); renderAll();
+    toast("Board cleared");
+  });
+
+  document.getElementById("r-refresh").addEventListener("click", renderReport);
+  document.getElementById("r-copy").addEventListener("click", function () {
+    var md = buildReport();
+    if (navigator.clipboard) navigator.clipboard.writeText(md).then(function () { toast("Markdown copied"); }, function () { toast("Select the text and copy"); });
+    else toast("Select the text and copy");
+  });
+
+  /* ---------------- scan feed ---------------- */
+  /* roles.json is written by scripts/fetch.mjs and committed by the scan workflow.
+     Facts come from the feed; decisions (status, notes) stay with whoever is using
+     this browser and are never overwritten. */
+  function mergeFeed(feed) {
+    var incoming = (feed && feed.roles) || [];
+    if (!incoming.length) return 0;
+
+    var byId = {};
+    state.roles.forEach(function (r) { byId[r.id] = r; });
+
+    var added = 0;
+    incoming.forEach(function (f) {
+      if (state.dismissed.indexOf(f.id) > -1) return;
+      var prev = byId[f.id];
+      if (prev) {
+        prev.title = f.title;
+        prev.rate = f.rate || prev.rate;
+        prev.length = f.length || prev.length;
+        prev.location = f.location || prev.location;
+        prev.url = f.url || prev.url;
+        prev.rating = f.rating;
+        prev.evPlus = f.evPlus || [];
+        prev.evMinus = f.evMinus || [];
+        prev.confidence = f.confidence;
+      } else {
+        state.roles.push({
+          id: f.id, title: f.title, company: f.company, rate: f.rate || 0,
+          length: f.length || "", location: f.location || "", source: f.source || "Feed",
+          url: f.url || "", rating: f.rating, evPlus: f.evPlus || [], evMinus: f.evMinus || [],
+          confidence: f.confidence, notes: f.notes || "", status: "new", fromFeed: true,
+          added: Date.now(), addedLabel: today()
+        });
+        added++;
+      }
+    });
+
+    state.feedAt = feed.generatedAt || null;
+    save();
+    return added;
+  }
+
+  function loadFeed() {
+    fetch("./roles.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (feed) {
+        if (!feed) return;
+        var added = mergeFeed(feed);
+        renderAll();
+        if (added) toast(added + (added === 1 ? " new role from the latest scan" : " new roles from the latest scan"));
+      })
+      .catch(function () { /* no feed alongside the page — manual entry only, which is fine */ });
+  }
+
+  /* ---------------- boot ---------------- */
+  document.getElementById("kw-out").innerHTML = OUTSIDE.map(function (k) { return "<li>" + esc(k) + "</li>"; }).join("");
+  document.getElementById("kw-in").innerHTML = INSIDE.map(function (k) { return "<li>" + esc(k) + "</li>"; }).join("");
+  renderPrefs();
+  renderAll();
+  loadFeed();
+})();
+</script>
+
+</body>
+</html>

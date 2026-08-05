@@ -1,0 +1,46 @@
+name: Contract scan
+
+on:
+  schedule:
+    # Times are UTC. These are set for BST (UTC+1) — 07:00 / 13:00 / 18:00 local.
+    # After the October clock change, shift each to 07/13/18 to keep local times.
+    - cron: "0 6 * * 1-5"
+    - cron: "0 12 * * 1-5"
+    - cron: "0 17 * * 1-5"
+  workflow_dispatch: # lets you run a scan on demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contract-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run scan
+        env:
+          REED_API_KEY: ${{ secrets.REED_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: node scripts/fetch.mjs
+
+      - name: Commit if the board changed
+        run: |
+          if git diff --quiet -- roles.json; then
+            echo "No change to roles.json — nothing to commit."
+            exit 0
+          fi
+          git config user.name "contract-radar"
+          git config user.email "actions@users.noreply.github.com"
+          git add roles.json
+          git commit -m "scan: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push

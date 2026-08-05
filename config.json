@@ -1,0 +1,50 @@
+{
+  "brief": {
+    "min": 400,
+    "max": 700,
+    "roles": "both",
+    "loc": "Remote",
+    "sectors": "Telecoms, Finance, Tech",
+    "len": "3–12 months",
+    "times": "07:00, 13:00, 18:00",
+    "days": 220
+  },
+
+  "keywords": [
+    "contract project manager",
+    "contract business analyst",
+    "programme manager contract",
+    "interim project manager"
+  ],
+
+  "reed": {
+    "enabled": true,
+    "locationName": "London",
+    "distanceFromLocation": 30,
+    "resultsToTake": 100,
+    "maxDetailFetches": 60
+  },
+
+  "adzuna": {
+    "enabled": true,
+    "country": "gb",
+    "where": "UK",
+    "resultsPerPage": 50,
+    "maxDaysOld": 2
+  },
+
+  "rss": {
+    "enabled": false,
+    "_comment": "Technojobs has been offline since late 2025. Point this at any working job RSS feed and flip enabled to true. {q} is replaced with each keyword.",
+    "feeds": [
+      { "name": "Technojobs", "url": "https://www.technojobs.co.uk/rss.phtml?keyword={q}&jobtype=contract" }
+    ]
+  },
+
+  "filters": {
+    "dropBelowRate": 350,
+    "keepUnknownRate": true,
+    "maxRolesRetained": 300,
+    "expireAfterDays": 21
+  }
+}
