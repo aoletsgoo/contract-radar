@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:36:30.426Z",
+  "generatedAt": "2026-08-06T08:15:01.311Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 5,
-    "warn": 13,
-    "risk": 7
+    "warn": 14,
+    "risk": 8
   },
   "roles": [
     {
@@ -35,7 +35,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fv2dhrx",
@@ -56,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1ycvvp0",
@@ -77,7 +77,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fpggj1i",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1qrmdfe",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fkdvh0s",
@@ -140,7 +140,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "ftmod18",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fify0t6",
@@ -182,7 +182,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
+    },
+    {
+      "id": "f4qfwte",
+      "title": "Project Manager - Finance Tansformation",
+      "company": "Kinetech Recruitment",
+      "rate": 0,
+      "length": "",
+      "location": "South East London, London",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5829767710?se=njrp9G6R8RGQ4Z-QtyXkyw&utm_medium=api&utm_source=4d94b19c&v=440DEC4A941D065229180AEBDEAEA82B36C3219B",
+      "rating": 4,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-06T08:15:01.311Z",
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f19hab8v",
@@ -220,7 +241,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1cxopde",
@@ -239,7 +260,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1ehqd1a",
@@ -258,7 +279,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1163jyz",
@@ -277,7 +298,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fjvetea",
@@ -296,7 +317,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1lb6vf7",
@@ -315,7 +336,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fngpndw",
@@ -334,7 +355,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1ikxk27",
@@ -353,7 +374,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1bxu1gb",
@@ -372,7 +393,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
+    },
+    {
+      "id": "f1f421rq",
+      "title": "Networks Specialist Technical Project Manager",
+      "company": "Morson Edge",
+      "rate": 650,
+      "length": "6 months",
+      "location": "London, UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5828410449?utm_medium=api&utm_source=4d94b19c",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-06T08:15:01.311Z",
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "ftbv895",
@@ -382,7 +424,7 @@
       "length": "",
       "location": "Walkern, Hertfordshire",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5828125786?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5828125786?se=SM8f826R8RGExO5K9raumQ&utm_medium=api&utm_source=4d94b19c&v=83478CD7620DE3B86750E389D9A47F16EE7FB362",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -393,7 +435,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1l68hks",
@@ -414,7 +456,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f19rb0df",
@@ -435,7 +477,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fl5i80s",
@@ -456,7 +498,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f1cjca48",
@@ -477,7 +519,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "f11hl1he",
@@ -500,7 +542,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     },
     {
       "id": "fafjswl",
@@ -521,7 +563,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
+      "lastSeen": "2026-08-06T08:15:01.311Z"
     }
   ]
 }
