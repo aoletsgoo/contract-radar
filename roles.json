@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:05:09.082Z",
+  "generatedAt": "2026-08-11T17:46:59.515Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -11,8 +11,8 @@
     "days": 220
   },
   "counts": {
-    "safe": 6,
-    "warn": 22,
+    "safe": 7,
+    "warn": 24,
     "risk": 9
   },
   "roles": [
@@ -35,7 +35,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fv2dhrx",
@@ -56,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1ycvvp0",
@@ -77,7 +77,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fpggj1i",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1qrmdfe",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fc7bgqh",
@@ -140,7 +140,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
+    },
+    {
+      "id": "f127weor",
+      "title": "Pensions Project Manager",
+      "company": "Proactive Appointments",
+      "rate": 0,
+      "length": "6 months",
+      "location": "South West England",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/pensions-project-manager/57224698",
+      "rating": 2,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Apply — wording reads as outside IR35.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-11T17:46:59.515Z",
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fkdvh0s",
@@ -203,7 +224,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f4qfwte",
@@ -304,7 +325,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1cxopde",
@@ -323,7 +344,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1ehqd1a",
@@ -342,7 +363,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1163jyz",
@@ -361,7 +382,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fjvetea",
@@ -380,7 +401,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1lb6vf7",
@@ -399,7 +420,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fngpndw",
@@ -418,7 +439,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1ikxk27",
@@ -437,7 +458,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1bxu1gb",
@@ -475,7 +496,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fcr6uvj",
@@ -532,7 +553,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-10T07:10:31.839Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "ffqqsuh",
@@ -551,7 +572,26 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-11T06:48:05.039Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
+    },
+    {
+      "id": "fjjw9sk",
+      "title": "Contract Project Manager",
+      "company": "Experis",
+      "rate": 0,
+      "length": "6 months",
+      "location": "Bristol, South West England",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5837030808?se=WG0urqyV8RGNEO0SxDr7vQ&utm_medium=api&utm_source=4d94b19c&v=1B47924821E78A742EA6CD5101C6AFBF71ADD7B5",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-11T17:46:59.515Z",
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fic2lh1",
@@ -572,7 +612,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-10T13:08:17.113Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
+    },
+    {
+      "id": "f1fb9knj",
+      "title": "Junior Business Analyst",
+      "company": "Gold Group Ltd",
+      "rate": 0,
+      "length": "12 months",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/junior-business-analyst/57224811",
+      "rating": 6,
+      "evPlus": [],
+      "evMinus": [
+        "annual leave"
+      ],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-11T17:46:59.515Z",
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1f421rq",
@@ -656,7 +717,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "fl5i80s",
@@ -677,7 +738,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1q339b5",
@@ -700,7 +761,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f1cjca48",
@@ -721,7 +782,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     },
     {
       "id": "f11hl1he",
@@ -765,7 +826,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-11T13:05:09.082Z"
+      "lastSeen": "2026-08-11T17:46:59.515Z"
     }
   ]
 }
