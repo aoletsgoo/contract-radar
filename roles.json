@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:11:13.412Z",
+  "generatedAt": "2026-08-13T17:47:33.254Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -11,7 +11,7 @@
     "days": 220
   },
   "counts": {
-    "safe": 7,
+    "safe": 8,
     "warn": 28,
     "risk": 9
   },
@@ -35,7 +35,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "fv2dhrx",
@@ -59,6 +59,27 @@
       "lastSeen": "2026-08-12T07:08:38.828Z"
     },
     {
+      "id": "f1lib0rl",
+      "title": "Senior Business Analyst",
+      "company": "FryerMiles",
+      "rate": 500,
+      "length": "6 months",
+      "location": "Cheltenham",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/senior-business-analyst/57234450",
+      "rating": 2,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Apply — wording reads as outside IR35.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-13T17:47:33.254Z",
+      "lastSeen": "2026-08-13T17:47:33.254Z"
+    },
+    {
       "id": "f1ycvvp0",
       "title": "Business Analyst",
       "company": "Blues Point Ltd",
@@ -77,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "fpggj1i",
@@ -98,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1qrmdfe",
@@ -119,7 +140,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "fc7bgqh",
@@ -140,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f127weor",
@@ -203,7 +224,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-13T07:12:41.215Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "ftmod18",
@@ -245,7 +266,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f4qfwte",
@@ -346,7 +367,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1cxopde",
@@ -365,7 +386,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1ehqd1a",
@@ -384,7 +405,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1163jyz",
@@ -403,7 +424,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "fjvetea",
@@ -422,7 +443,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1lb6vf7",
@@ -441,7 +462,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "fngpndw",
@@ -460,7 +481,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1ikxk27",
@@ -479,7 +500,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1bxu1gb",
@@ -517,7 +538,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "fcr6uvj",
@@ -612,7 +633,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-11T17:46:59.515Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1kbeudc",
@@ -631,7 +652,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-12T07:08:38.828Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1nj1qm4",
@@ -690,7 +711,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-10T13:08:17.113Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1fb9knj",
@@ -795,7 +816,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "fl5i80s",
@@ -816,7 +837,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1q339b5",
@@ -839,7 +860,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f1cjca48",
@@ -860,7 +881,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     },
     {
       "id": "f11hl1he",
@@ -904,7 +925,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-13T13:11:13.412Z"
+      "lastSeen": "2026-08-13T17:47:33.254Z"
     }
   ]
 }
