@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T12:43:00.626Z",
+  "generatedAt": "2026-08-17T17:15:49.426Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 8,
-    "warn": 34,
-    "risk": 9
+    "warn": 36,
+    "risk": 10
   },
   "roles": [
     {
@@ -77,7 +77,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-13T17:47:33.254Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1ycvvp0",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fpggj1i",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1qrmdfe",
@@ -140,7 +140,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fc7bgqh",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f127weor",
@@ -266,7 +266,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f4qfwte",
@@ -367,7 +367,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T17:43:01.904Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1bjjc45",
@@ -386,7 +386,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1cxopde",
@@ -405,7 +405,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f671xbl",
@@ -424,7 +424,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T06:34:05.626Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fsan8cg",
@@ -443,7 +443,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1ehqd1a",
@@ -481,7 +481,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fjvetea",
@@ -500,7 +500,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1lb6vf7",
@@ -519,7 +519,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fngpndw",
@@ -557,7 +557,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1bxu1gb",
@@ -595,7 +595,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fcr6uvj",
@@ -766,7 +766,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f2cpfel",
@@ -785,7 +785,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T06:34:05.626Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1a43hya",
@@ -804,7 +804,26 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T06:34:05.626Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
+    },
+    {
+      "id": "f1wfic0u",
+      "title": "Finance Business Analyst",
+      "company": "Teksystems",
+      "rate": 0,
+      "length": "6 months",
+      "location": "South East London, London",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5845325800?se=4pCxUl-a8RGjvpVu23kfrA&utm_medium=api&utm_source=4d94b19c&v=3B9F88118218A121B9E1AE373AAB72FEA42D4365",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-17T17:15:49.426Z",
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fic2lh1",
@@ -825,7 +844,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-10T13:08:17.113Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1fb9knj",
@@ -847,6 +866,48 @@
       "fromFeed": true,
       "firstSeen": "2026-08-11T17:46:59.515Z",
       "lastSeen": "2026-08-12T13:09:23.541Z"
+    },
+    {
+      "id": "fq37j4f",
+      "title": "Project Manager",
+      "company": "Prospect Us",
+      "rate": 0,
+      "length": "3 months",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/project-manager/57247410",
+      "rating": 6,
+      "evPlus": [],
+      "evMinus": [
+        "holiday pay"
+      ],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-17T17:15:49.426Z",
+      "lastSeen": "2026-08-17T17:15:49.426Z"
+    },
+    {
+      "id": "f8iy2hy",
+      "title": "Technical Programme Manager",
+      "company": "Matchtech ",
+      "rate": 800,
+      "length": "3 months",
+      "location": "Surrey",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/technical-programme-manager/57247718",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-17T17:15:49.426Z",
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1f421rq",
@@ -930,7 +991,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "fl5i80s",
@@ -951,7 +1012,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1q339b5",
@@ -974,7 +1035,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f1cjca48",
@@ -995,7 +1056,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     },
     {
       "id": "f11hl1he",
@@ -1039,7 +1100,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-17T12:43:00.626Z"
+      "lastSeen": "2026-08-17T17:15:49.426Z"
     }
   ]
 }
