@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T06:30:44.895Z",
+  "generatedAt": "2026-08-26T12:52:01.506Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 8,
-    "warn": 44,
-    "risk": 19
+    "warn": 45,
+    "risk": 20
   },
   "roles": [
     {
@@ -77,7 +77,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-13T17:47:33.254Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1ycvvp0",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1qrmdfe",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f127weor",
@@ -266,7 +266,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f4qfwte",
@@ -386,7 +386,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1cxopde",
@@ -405,7 +405,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f671xbl",
@@ -462,7 +462,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1163jyz",
@@ -481,7 +481,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "fjvetea",
@@ -519,7 +519,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "fngpndw",
@@ -557,7 +557,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1bxu1gb",
@@ -595,7 +595,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "fcr6uvj",
@@ -766,7 +766,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f2cpfel",
@@ -842,7 +842,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1mgbfmt",
@@ -940,6 +940,25 @@
       "lastSeen": "2026-08-25T12:47:16.795Z"
     },
     {
+      "id": "f1sor79m",
+      "title": "Contract Project Manager",
+      "company": "Experis UK",
+      "rate": 0,
+      "length": "6 months",
+      "location": "Bristol, South West England",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5856544617?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-26T12:52:01.506Z",
+      "lastSeen": "2026-08-26T12:52:01.506Z"
+    },
+    {
       "id": "fic2lh1",
       "title": "Senior Business Analyst",
       "company": "FDM Group",
@@ -958,7 +977,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-10T13:08:17.113Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1fb9knj",
@@ -1021,7 +1040,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T17:16:41.816Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1xpaxvu",
@@ -1064,7 +1083,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f8iy2hy",
@@ -1085,7 +1104,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1f421rq",
@@ -1127,7 +1146,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "ftbv895",
@@ -1190,7 +1209,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-25T17:21:39.391Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f19rb0df",
@@ -1214,6 +1233,27 @@
       "lastSeen": "2026-08-20T17:18:23.079Z"
     },
     {
+      "id": "f10nahjr",
+      "title": "Project Manager - (Housing Strategy & Economic Development)",
+      "company": "Salt Search",
+      "rate": 500,
+      "length": "52 weeks",
+      "location": "Berkshire",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/project-manager-housing-strategy-amp-economic-development/57279341",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-26T12:52:01.506Z",
+      "lastSeen": "2026-08-26T12:52:01.506Z"
+    },
+    {
       "id": "f1ntuvq7",
       "title": "Programme Manager - PSX IT Integration",
       "company": "Advanced Resource Managers Ltd",
@@ -1232,7 +1272,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-25T17:21:39.391Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "fl5i80s",
@@ -1253,7 +1293,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1q339b5",
@@ -1339,7 +1379,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T06:30:44.895Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f1cjca48",
@@ -1360,7 +1400,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f11hl1he",
@@ -1404,7 +1444,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T06:30:44.895Z"
+      "lastSeen": "2026-08-26T12:52:01.506Z"
     },
     {
       "id": "f86yg5v",
