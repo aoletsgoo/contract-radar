@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T18:46:13.413Z",
+  "generatedAt": "2026-08-27T17:05:07.681Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,7 +12,7 @@
   },
   "counts": {
     "safe": 8,
-    "warn": 45,
+    "warn": 46,
     "risk": 22
   },
   "roles": [
@@ -77,7 +77,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-13T17:47:33.254Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1ycvvp0",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1qrmdfe",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f127weor",
@@ -185,27 +185,6 @@
       "lastSeen": "2026-08-12T07:08:38.828Z"
     },
     {
-      "id": "fkdvh0s",
-      "title": "Senior PMO Manager",
-      "company": "Morson Edge",
-      "rate": 550,
-      "length": "6 months",
-      "location": "UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5829404272?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-06T14:10:18.175Z"
-    },
-    {
       "id": "f1pgcm0j",
       "title": "Business Analyst",
       "company": "Sanderson Government and Defence",
@@ -227,27 +206,6 @@
       "lastSeen": "2026-08-14T17:43:01.904Z"
     },
     {
-      "id": "ftmod18",
-      "title": "Business Analyst",
-      "company": "La Fosse Associates",
-      "rate": 350,
-      "length": "12 months",
-      "location": "Lancashire, North West England",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5828124930?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-06T14:10:18.175Z"
-    },
-    {
       "id": "fify0t6",
       "title": "Business analyst",
       "company": "Lorien",
@@ -266,7 +224,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f4qfwte",
@@ -332,25 +290,6 @@
       "lastSeen": "2026-08-07T17:38:50.860Z"
     },
     {
-      "id": "f19hab8v",
-      "title": "Project Manager",
-      "company": "VIQU IT Recruitment",
-      "rate": 1000,
-      "length": "6 months",
-      "location": "Manchester",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/project-manager/57055951",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-05T21:36:30.426Z"
-    },
-    {
       "id": "fgiqjut",
       "title": "PSO/PMO Lead",
       "company": "Hays Specialist Recruitment Limited",
@@ -386,7 +325,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1cxopde",
@@ -405,7 +344,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f671xbl",
@@ -462,7 +401,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1163jyz",
@@ -481,7 +420,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "fjvetea",
@@ -519,7 +458,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "fngpndw",
@@ -557,7 +496,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1bxu1gb",
@@ -595,7 +534,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "fcr6uvj",
@@ -766,7 +705,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f2cpfel",
@@ -842,7 +781,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1mgbfmt",
@@ -956,7 +895,83 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T12:52:01.506Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
+    },
+    {
+      "id": "fwk552c",
+      "title": "Azure Programme Manager",
+      "company": "Precise Placements ",
+      "rate": 0,
+      "length": "6 months",
+      "location": "EC2A1AF",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/azure-programme-manager/57282756",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-27T17:05:07.681Z",
+      "lastSeen": "2026-08-27T17:05:07.681Z"
+    },
+    {
+      "id": "f9vo79y",
+      "title": "Commercial Compliance & Assurance Project Lead",
+      "company": "Lynx Employment Services Ltd",
+      "rate": 0,
+      "length": "",
+      "location": "Shrewsbury, Shropshire",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5858064888?se=4tlNfDmi8RGfx5bEd-nhPg&utm_medium=api&utm_source=4d94b19c&v=FDFA3EAA8C9043A486A230C9D9415C0D1CBCF366",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-27T17:05:07.681Z",
+      "lastSeen": "2026-08-27T17:05:07.681Z"
+    },
+    {
+      "id": "f2euqeu",
+      "title": "Program Manager - HR Transformation (Fixed-Term Contract, Remote)",
+      "company": "WTW",
+      "rate": 0,
+      "length": "",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5857006596?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-27T17:05:07.681Z",
+      "lastSeen": "2026-08-27T17:05:07.681Z"
+    },
+    {
+      "id": "fszak7r",
+      "title": "Azure Programme Manager",
+      "company": "Precise Placements",
+      "rate": 0,
+      "length": "6 months",
+      "location": "London, UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5858341942?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-27T17:05:07.681Z",
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "fic2lh1",
@@ -977,7 +992,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-10T13:08:17.113Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1fb9knj",
@@ -1040,7 +1055,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T17:16:41.816Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1xpaxvu",
@@ -1083,7 +1098,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f8iy2hy",
@@ -1104,7 +1119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1f421rq",
@@ -1146,7 +1161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "fm2yqby",
@@ -1167,28 +1182,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
-    },
-    {
-      "id": "ftbv895",
-      "title": "IT Project Manager - Oracle Finance/Dataflow Gen2",
-      "company": "Morgan Philips Group",
-      "rate": 600,
-      "length": "",
-      "location": "Walkern, Hertfordshire",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5828125786?se=CB2jlKCR8RGDk53ssYtCmg&utm_medium=api&utm_source=4d94b19c&v=83478CD7620DE3B86750E389D9A47F16EE7FB362",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-06T14:10:18.175Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1l68hks",
@@ -1230,7 +1224,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-25T17:21:39.391Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f19rb0df",
@@ -1272,7 +1266,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T12:52:01.506Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
+    },
+    {
+      "id": "f1sgwwc5",
+      "title": "Mac & Jamf Project Manager",
+      "company": "Square One Resources",
+      "rate": 500,
+      "length": "",
+      "location": "London, UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5857757746?utm_medium=api&utm_source=4d94b19c",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-08-27T17:05:07.681Z",
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1ntuvq7",
@@ -1314,7 +1329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f1q339b5",
@@ -1421,7 +1436,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f11hl1he",
@@ -1465,7 +1480,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     },
     {
       "id": "f86yg5v",
@@ -1528,7 +1543,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-08-26T18:46:13.413Z"
+      "lastSeen": "2026-08-27T17:05:07.681Z"
     }
   ]
 }
