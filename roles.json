@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:40:05.923Z",
+  "generatedAt": "2026-09-02T10:10:49.225Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -11,8 +11,8 @@
     "days": 220
   },
   "counts": {
-    "safe": 8,
-    "warn": 45,
+    "safe": 6,
+    "warn": 47,
     "risk": 21
   },
   "roles": [
@@ -38,27 +38,6 @@
       "lastSeen": "2026-08-17T06:34:05.626Z"
     },
     {
-      "id": "fv2dhrx",
-      "title": "Configuration Business Analyst (NICHE RMS)",
-      "company": "TXP Technology x People",
-      "rate": 500,
-      "length": "",
-      "location": "Warwickshire",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/configuration-business-analyst-niche-rms/57109893",
-      "rating": 2,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Apply — wording reads as outside IR35.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-12T07:08:38.828Z"
-    },
-    {
       "id": "f1lib0rl",
       "title": "Senior Business Analyst",
       "company": "FryerMiles",
@@ -77,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-13T17:47:33.254Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f1ycvvp0",
@@ -119,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f1qrmdfe",
@@ -161,28 +140,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
-    },
-    {
-      "id": "f127weor",
-      "title": "Pensions Project Manager",
-      "company": "Proactive Appointments",
-      "rate": 0,
-      "length": "6 months",
-      "location": "South West England",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/pensions-project-manager/57224698",
-      "rating": 2,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Apply — wording reads as outside IR35.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-11T17:46:59.515Z",
-      "lastSeen": "2026-08-12T07:08:38.828Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "fe6u7ww",
@@ -287,7 +245,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f19hab8v",
@@ -306,7 +264,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "fgiqjut",
@@ -392,7 +350,7 @@
       "length": "6 months",
       "location": "London, UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5862926811?se=PF8L9jym8RG0L_SoL9ExbQ&utm_medium=api&utm_source=4d94b19c&v=F724DEAD7E342E9B371E57A48DE5375E92F95DBD",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5862926811?se=lnbXmLam8RGiHujJjqzZMA&utm_medium=api&utm_source=4d94b19c&v=F724DEAD7E342E9B371E57A48DE5375E92F95DBD",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -401,7 +359,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T10:46:02.717Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "fsan8cg",
@@ -534,7 +492,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f18fm6fw",
@@ -553,7 +511,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "ffqqsuh",
@@ -563,7 +521,7 @@
       "length": "6 months",
       "location": "Ardwick, Manchester",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5835869399?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/details/5865190843?utm_medium=api&utm_source=4d94b19c",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -572,7 +530,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-11T06:48:05.039Z",
-      "lastSeen": "2026-08-12T17:48:48.762Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "fjjw9sk",
@@ -667,7 +625,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f2cpfel",
@@ -743,7 +701,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f1mgbfmt",
@@ -876,7 +834,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f9vo79y",
@@ -943,7 +901,7 @@
       "length": "6 months",
       "location": "Manchester, Greater Manchester",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5865193030?se=ElhM9Tym8RG0L_SoL9ExbQ&utm_medium=api&utm_source=4d94b19c&v=7DDE396B9052BFE33CC5B7E45E02131952518495",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5865193030?se=SBAtmLam8RGt6tin8_924A&utm_medium=api&utm_source=4d94b19c&v=7DDE396B9052BFE33CC5B7E45E02131952518495",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -952,7 +910,45 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
+    },
+    {
+      "id": "fbmi3wg",
+      "title": "Project Manager",
+      "company": "VIQU IT",
+      "rate": 0,
+      "length": "6 months",
+      "location": "Rusholme, Manchester",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5865198839?se=SBAtmLam8RGt6tin8_924A&utm_medium=api&utm_source=4d94b19c&v=09207A9276F3811665CE2493255D9A7A87D9785F",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-09-02T10:10:49.225Z",
+      "lastSeen": "2026-09-02T10:10:49.225Z"
+    },
+    {
+      "id": "fbkqv71",
+      "title": "Program Manager - Fully Remote",
+      "company": "Mercor",
+      "rate": 0,
+      "length": "",
+      "location": "London, UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5866113174?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-09-02T10:10:49.225Z",
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "fic2lh1",
@@ -1079,7 +1075,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f8iy2hy",
@@ -1100,7 +1096,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f152ecbf",
@@ -1121,7 +1117,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "fm2yqby",
@@ -1142,7 +1138,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f1mwaqit",
@@ -1205,7 +1201,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T12:52:01.506Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f1sgwwc5",
@@ -1289,7 +1285,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f1q339b5",
@@ -1375,7 +1371,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     },
     {
       "id": "f10hufps",
@@ -1501,7 +1497,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
+      "lastSeen": "2026-09-02T10:10:49.225Z"
     }
   ]
 }
