@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T10:22:40.099Z",
+  "generatedAt": "2026-09-03T15:54:30.952Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -11,7 +11,7 @@
     "days": 220
   },
   "counts": {
-    "safe": 6,
+    "safe": 7,
     "warn": 48,
     "risk": 21
   },
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f1qrmdfe",
@@ -140,7 +140,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
+    },
+    {
+      "id": "fuulk78",
+      "title": "Contract Business Analyst - EDI & Integrations",
+      "company": "Spectrum IT Recruitment",
+      "rate": 0,
+      "length": "9 months",
+      "location": "Reading",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/contract-business-analyst-edi-amp-integrations/57307490",
+      "rating": 2,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Apply — wording reads as outside IR35.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-09-03T15:54:30.952Z",
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "fe6u7ww",
@@ -245,7 +266,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f19hab8v",
@@ -264,7 +285,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "fgiqjut",
@@ -397,7 +418,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f1ehqd1a",
@@ -511,7 +532,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f18fm6fw",
@@ -530,7 +551,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "ffqqsuh",
@@ -549,7 +570,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-11T06:48:05.039Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "fjjw9sk",
@@ -644,7 +665,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f2cpfel",
@@ -720,7 +741,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f1mgbfmt",
@@ -853,7 +874,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f9vo79y",
@@ -967,7 +988,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T10:10:49.225Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "fic2lh1",
@@ -1094,7 +1115,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f8iy2hy",
@@ -1115,7 +1136,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f152ecbf",
@@ -1136,7 +1157,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "fm2yqby",
@@ -1157,7 +1178,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f1mwaqit",
@@ -1220,7 +1241,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T12:52:01.506Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f1sgwwc5",
@@ -1304,7 +1325,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f1q339b5",
@@ -1390,7 +1411,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     },
     {
       "id": "f10hufps",
@@ -1516,7 +1537,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-03T10:22:40.099Z"
+      "lastSeen": "2026-09-03T15:54:30.952Z"
     }
   ]
 }
