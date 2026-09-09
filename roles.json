@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T19:38:08.200Z",
+  "generatedAt": "2026-09-09T10:23:30.180Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1lib0rl",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1qrmdfe",
@@ -120,7 +120,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "fuulk78",
@@ -141,7 +141,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-03T15:54:30.952Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "fe6u7ww",
@@ -193,7 +193,7 @@
       "length": "6 months",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5874198103?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5874198103?se=VI1KiDis8RGYuL8ZOQetuQ&utm_medium=api&utm_source=4d94b19c&v=BA75806DF443BC523A4AEC7C663650307EA27107",
       "rating": 4,
       "evPlus": [
         "outside ir35"
@@ -204,7 +204,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "fg4giui",
@@ -246,7 +246,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1fhqkn7",
@@ -296,9 +296,9 @@
       "company": "Owen Daniels",
       "rate": 0,
       "length": "18 months",
-      "location": "Manchester, Greater Manchester",
+      "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5875608209?se=0I2W17yr8RGzD_gtUNDNoQ&utm_medium=api&utm_source=4d94b19c&v=790219B313093315065A134288CF4D58384C3F1C",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5875695905?se=nLSuhzis8RGsGvIAzEZRCQ&utm_medium=api&utm_source=4d94b19c&v=3B7371904AF7DDB3AE692C5D146E2E77E3942DF8",
       "rating": 4,
       "evPlus": [
         "outside ir35",
@@ -310,7 +310,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f19hab8v",
@@ -329,7 +329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "fgiqjut",
@@ -424,7 +424,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "fsan8cg",
@@ -462,7 +462,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1ehqd1a",
@@ -576,7 +576,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "ffqqsuh",
@@ -652,7 +652,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1wfic0u",
@@ -690,7 +690,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1mgbfmt",
@@ -823,7 +823,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f9vo79y",
@@ -1102,7 +1102,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f8iy2hy",
@@ -1123,7 +1123,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f152ecbf",
@@ -1144,7 +1144,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "fm2yqby",
@@ -1165,7 +1165,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "fa7eper",
@@ -1249,7 +1249,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T12:52:01.506Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1sgwwc5",
@@ -1333,7 +1333,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f1q339b5",
@@ -1419,7 +1419,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     },
     {
       "id": "f10hufps",
@@ -1545,7 +1545,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-08T19:38:08.200Z"
+      "lastSeen": "2026-09-09T10:23:30.180Z"
     }
   ]
 }
