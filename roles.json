@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T15:56:38.277Z",
+  "generatedAt": "2026-09-10T19:19:29.579Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,7 +12,7 @@
   },
   "counts": {
     "safe": 5,
-    "warn": 44,
+    "warn": 43,
     "risk": 21
   },
   "roles": [
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f1lib0rl",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fc7bgqh",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fuulk78",
@@ -120,7 +120,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-03T15:54:30.952Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fe6u7ww",
@@ -204,7 +204,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-09T16:02:13.384Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fg4giui",
@@ -298,7 +298,7 @@
       "length": "18 months",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5875695905?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5875695905?se=OGh8kUyt8RG-boIJ1Sof9g&utm_medium=api&utm_source=4d94b19c&v=3B7371904AF7DDB3AE692C5D146E2E77E3942DF8",
       "rating": 4,
       "evPlus": [
         "outside ir35",
@@ -310,7 +310,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f19hab8v",
@@ -329,7 +329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fgiqjut",
@@ -424,7 +424,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fsan8cg",
@@ -462,7 +462,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f1ehqd1a",
@@ -576,7 +576,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "ffqqsuh",
@@ -614,7 +614,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f1a5gof7",
@@ -633,7 +633,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fymakyn",
@@ -728,7 +728,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f9vo79y",
@@ -899,7 +899,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fic2lh1",
@@ -921,27 +921,6 @@
       "fromFeed": true,
       "firstSeen": "2026-08-10T13:08:17.113Z",
       "lastSeen": "2026-08-28T01:11:56.733Z"
-    },
-    {
-      "id": "fq37j4f",
-      "title": "Project Manager",
-      "company": "Prospect Us",
-      "rate": 0,
-      "length": "3 months",
-      "location": "London",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/project-manager/57247410",
-      "rating": 6,
-      "evPlus": [],
-      "evMinus": [
-        "holiday pay"
-      ],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-08-20T17:18:23.079Z"
     },
     {
       "id": "fvz6yih",
@@ -1005,7 +984,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f8iy2hy",
@@ -1026,7 +1005,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f152ecbf",
@@ -1047,7 +1026,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fm2yqby",
@@ -1068,7 +1047,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "fa7eper",
@@ -1113,14 +1092,14 @@
       "lastSeen": "2026-08-27T21:52:22.935Z"
     },
     {
-      "id": "f19rb0df",
-      "title": "Project / Programme Manager - BID IMPLEMENTATION PLANS -REMOTE",
-      "company": "Lorien",
-      "rate": 560,
+      "id": "f13wc05r",
+      "title": "Delivery Manager - Enhanced SC Clearance - Contract",
+      "company": "Involved Solutions",
+      "rate": 600,
       "length": "",
-      "location": "EC3A4AF",
+      "location": "London",
       "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/project-programme-manager-bid-implementation-plans-remote/57105078",
+      "url": "https://www.reed.co.uk/jobs/delivery-manager-enhanced-sc-clearance-contract/57333794",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -1130,8 +1109,8 @@
       "notes": "Skip unless the recruiter contradicts the advert.",
       "status": "new",
       "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-20T17:18:23.079Z"
+      "firstSeen": "2026-09-10T19:19:29.579Z",
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f10nahjr",
@@ -1236,7 +1215,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f1q339b5",
@@ -1301,7 +1280,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     },
     {
       "id": "f10hufps",
@@ -1427,7 +1406,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-10T15:56:38.277Z"
+      "lastSeen": "2026-09-10T19:19:29.579Z"
     }
   ]
 }
