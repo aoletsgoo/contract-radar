@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T19:32:33.321Z",
+  "generatedAt": "2026-09-10T10:15:01.738Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 5,
-    "warn": 45,
-    "risk": 22
+    "warn": 43,
+    "risk": 21
   },
   "roles": [
     {
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f1lib0rl",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fc7bgqh",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fuulk78",
@@ -120,7 +120,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-03T15:54:30.952Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fe6u7ww",
@@ -204,7 +204,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-09T16:02:13.384Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fg4giui",
@@ -298,7 +298,7 @@
       "length": "18 months",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5875695905?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5875695905?se=5qKPggCt8RGxxJIBlTg-jQ&utm_medium=api&utm_source=4d94b19c&v=3B7371904AF7DDB3AE692C5D146E2E77E3942DF8",
       "rating": 4,
       "evPlus": [
         "outside ir35",
@@ -310,7 +310,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f19hab8v",
@@ -329,7 +329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fgiqjut",
@@ -424,7 +424,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fsan8cg",
@@ -462,7 +462,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f1ehqd1a",
@@ -576,7 +576,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "ffqqsuh",
@@ -598,25 +598,6 @@
       "lastSeen": "2026-09-03T19:29:12.843Z"
     },
     {
-      "id": "f1f1cq3k",
-      "title": "Junior Business Analyst",
-      "company": "Gold Group",
-      "rate": 0,
-      "length": "12 months",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5848702301?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-12T07:08:38.828Z",
-      "lastSeen": "2026-08-20T06:27:52.002Z"
-    },
-    {
       "id": "f3zsg3",
       "title": "Business Analysis and Onboarding specialist",
       "company": "Randstad Technologies",
@@ -633,26 +614,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
-    },
-    {
-      "id": "f1wfic0u",
-      "title": "Finance Business Analyst",
-      "company": "Teksystems",
-      "rate": 0,
-      "length": "6 months",
-      "location": "South East London, London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5847800259?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-08-20T06:27:52.002Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f1a5gof7",
@@ -671,7 +633,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fymakyn",
@@ -766,7 +728,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f9vo79y",
@@ -1024,7 +986,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f8iy2hy",
@@ -1045,7 +1007,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f152ecbf",
@@ -1066,7 +1028,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fm2yqby",
@@ -1087,7 +1049,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "fa7eper",
@@ -1255,7 +1217,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f1q339b5",
@@ -1302,27 +1264,6 @@
       "lastSeen": "2026-08-25T17:21:39.391Z"
     },
     {
-      "id": "f1f5d1m",
-      "title": "Data Project Manager",
-      "company": "Cathcart Technology",
-      "rate": 450,
-      "length": "6 months",
-      "location": "The City, Central London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5846994095?se=4hmpTGCc8RGQor-L2zKR7A&utm_medium=api&utm_source=4d94b19c&v=D3AC6BBDFF74B7C0DCDFC7D27C80F9D83E879EE8",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-18T17:16:41.816Z",
-      "lastSeen": "2026-08-20T06:27:52.002Z"
-    },
-    {
       "id": "fs8ou2z",
       "title": "Technical Delivery Manager",
       "company": "Hays Specialist Recruitment Limited",
@@ -1341,7 +1282,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     },
     {
       "id": "f10hufps",
@@ -1467,7 +1408,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-09T19:32:33.321Z"
+      "lastSeen": "2026-09-10T10:15:01.738Z"
     }
   ]
 }
