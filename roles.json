@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T15:59:33.002Z",
+  "generatedAt": "2026-09-11T19:21:00.036Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 5,
-    "warn": 43,
-    "risk": 21
+    "warn": 39,
+    "risk": 19
   },
   "roles": [
     {
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f1lib0rl",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "fc7bgqh",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "fuulk78",
@@ -120,7 +120,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-03T15:54:30.952Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "fe6u7ww",
@@ -329,26 +329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
-    },
-    {
-      "id": "fgiqjut",
-      "title": "PSO/PMO Lead",
-      "company": "Hays Specialist Recruitment Limited",
-      "rate": 550,
-      "length": "6 months",
-      "location": "London",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/pso-pmo-lead/57238848",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-14T17:43:01.904Z",
-      "lastSeen": "2026-08-21T17:17:59.671Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f1bjjc45",
@@ -424,26 +405,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
-    },
-    {
-      "id": "fsan8cg",
-      "title": "Cloud Project Manager",
-      "company": "Hays Specialist Recruitment Limited",
-      "rate": 424,
-      "length": "",
-      "location": "London",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/cloud-project-manager/57237612",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-08-21T17:17:59.671Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "fgnxpqg",
@@ -462,7 +424,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f1ehqd1a",
@@ -576,7 +538,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "ffqqsuh",
@@ -614,7 +576,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f1a5gof7",
@@ -633,45 +595,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
-    },
-    {
-      "id": "fymakyn",
-      "title": "SAP Ariba Project Manager",
-      "company": "Focus Cloud Group",
-      "rate": 0,
-      "length": "6 months",
-      "location": "Berkshire, South East England",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5847653231?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-19T06:26:03.147Z",
-      "lastSeen": "2026-08-21T17:17:59.671Z"
-    },
-    {
-      "id": "fvrsti6",
-      "title": "Project Manager - LLM Expertise",
-      "company": "Mercor",
-      "rate": 0,
-      "length": "",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5850370564?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-21T06:28:17.318Z",
-      "lastSeen": "2026-08-21T17:17:59.671Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f1e4mrxy",
@@ -728,7 +652,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f9vo79y",
@@ -899,7 +823,26 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
+    },
+    {
+      "id": "f1fgafk3",
+      "title": "Project Manager",
+      "company": "Harvey Nash",
+      "rate": 0,
+      "length": "3 months",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5880053266?se=hKQZ8hWu8RGhe8--YZ_w9w&utm_medium=api&utm_source=4d94b19c&v=B98D8BFDB425CA82AA6C0C403A765384E640B461",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-09-11T19:21:00.036Z",
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "fic2lh1",
@@ -944,27 +887,6 @@
       "lastSeen": "2026-09-01T19:40:05.923Z"
     },
     {
-      "id": "f1xpaxvu",
-      "title": "Senior Programme Manager",
-      "company": "Certitude",
-      "rate": 0,
-      "length": "12 months",
-      "location": "South West London, London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5848134622?utm_medium=api&utm_source=4d94b19c",
-      "rating": 6,
-      "evPlus": [],
-      "evMinus": [
-        "annual leave"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-18T17:16:41.816Z",
-      "lastSeen": "2026-08-21T17:17:59.671Z"
-    },
-    {
       "id": "f1879iv2",
       "title": "Program Manager - HR Transformation (FTC, Remote)",
       "company": "WTW",
@@ -984,7 +906,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f8iy2hy",
@@ -1005,7 +927,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f152ecbf",
@@ -1026,7 +948,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "fm2yqby",
@@ -1047,7 +969,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "fa7eper",
@@ -1110,7 +1032,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f10nahjr",
@@ -1215,7 +1137,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f1q339b5",
@@ -1280,7 +1202,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     },
     {
       "id": "f10hufps",
@@ -1346,48 +1268,6 @@
       "lastSeen": "2026-08-27T21:52:22.935Z"
     },
     {
-      "id": "f86yg5v",
-      "title": "Rail Contracts Project Manager",
-      "company": "Carrington West",
-      "rate": 0,
-      "length": "6 months",
-      "location": "North Acton, North West London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5848123127?se=GlsOSYSd8RGU6LIjyaRnwA&utm_medium=api&utm_source=4d94b19c&v=0FE6D1FC5B1BCB2092CBAFE6F6C011AA022B6658",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-19T12:46:50.022Z",
-      "lastSeen": "2026-08-21T17:17:59.671Z"
-    },
-    {
-      "id": "f9dr2ku",
-      "title": "Programme Manager",
-      "company": "Develop",
-      "rate": 0,
-      "length": "",
-      "location": "South West London, London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5850510668?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-21T06:28:17.318Z",
-      "lastSeen": "2026-08-21T17:17:59.671Z"
-    },
-    {
       "id": "f1xp9s0a",
       "title": "Project Manager - Data Centre",
       "company": "Hays Specialist Recruitment Limited",
@@ -1406,7 +1286,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-11T15:59:33.002Z"
+      "lastSeen": "2026-09-11T19:21:00.036Z"
     }
   ]
 }
