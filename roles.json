@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T19:54:09.964Z",
+  "generatedAt": "2026-09-16T10:29:12.587Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1lib0rl",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "fc7bgqh",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "fuulk78",
@@ -329,7 +329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f15qdlfb",
@@ -348,7 +348,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1bjjc45",
@@ -405,7 +405,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-15T16:25:33.034Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1chlrbb",
@@ -443,7 +443,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "fgnxpqg",
@@ -462,7 +462,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1ehqd1a",
@@ -557,7 +557,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-06T14:10:18.175Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "ffqqsuh",
@@ -595,7 +595,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1a5gof7",
@@ -614,7 +614,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1sor79m",
@@ -652,7 +652,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f9vo79y",
@@ -823,7 +823,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1fgafk3",
@@ -880,7 +880,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "fic2lh1",
@@ -944,7 +944,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f8iy2hy",
@@ -986,7 +986,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "fm2yqby",
@@ -1007,7 +1007,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "fa7eper",
@@ -1070,7 +1070,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f8cvbec",
@@ -1091,7 +1091,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1knkdif",
@@ -1099,9 +1099,9 @@
       "company": "Artis Recruitment",
       "rate": 550,
       "length": "6 months",
-      "location": "Easton, Bristol",
+      "location": "Bristol, South West England",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5883859298?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/details/5883869607?utm_medium=api&utm_source=4d94b19c",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -1112,7 +1112,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T20:39:49.361Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f10nahjr",
@@ -1238,7 +1238,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f1113k9q",
@@ -1259,7 +1259,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     },
     {
       "id": "f10hufps",
@@ -1343,7 +1343,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-15T19:54:09.964Z"
+      "lastSeen": "2026-09-16T10:29:12.587Z"
     }
   ]
 }
