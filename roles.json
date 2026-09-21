@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:16:03.562Z",
+  "generatedAt": "2026-09-21T11:26:19.786Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 6,
-    "warn": 43,
-    "risk": 20
+    "warn": 35,
+    "risk": 18
   },
   "roles": [
     {
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f1lib0rl",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fc7bgqh",
@@ -144,48 +144,6 @@
       "lastSeen": "2026-09-17T16:23:40.582Z"
     },
     {
-      "id": "fe6u7ww",
-      "title": "Project Manager",
-      "company": "ECS Recruitment Group",
-      "rate": 450,
-      "length": "",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5860047979?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-28T21:46:05.791Z",
-      "lastSeen": "2026-08-29T00:46:41.066Z"
-    },
-    {
-      "id": "f1ohp2fu",
-      "title": "Project Manager",
-      "company": "ECS Resource Group Ltd",
-      "rate": 450,
-      "length": "",
-      "location": "Farringdon, Central London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5859994653?se=_nISIEOj8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4d94b19c&v=60A0AF91D4F4790999CB43F6AD462359A57136B5",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-28T21:46:05.791Z",
-      "lastSeen": "2026-08-29T00:46:41.066Z"
-    },
-    {
       "id": "fub6hwa",
       "title": "Business Analyst",
       "company": "ISR RECRUITMENT LIMITED",
@@ -226,27 +184,6 @@
       "fromFeed": true,
       "firstSeen": "2026-09-09T16:02:13.384Z",
       "lastSeen": "2026-09-11T15:59:33.002Z"
-    },
-    {
-      "id": "fg4giui",
-      "title": "Contract Project Manager - Manchester - Â£400 a day outside IR35",
-      "company": "Exalto Consulting Limited",
-      "rate": 400,
-      "length": "3 months",
-      "location": "Manchester, Greater Manchester",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5858615054?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-27T21:52:22.935Z",
-      "lastSeen": "2026-08-29T00:46:41.066Z"
     },
     {
       "id": "fify0t6",
@@ -350,7 +287,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f15qdlfb",
@@ -369,45 +306,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
-    },
-    {
-      "id": "f1bjjc45",
-      "title": "Business Analyst - Digital Health / HealthTech",
-      "company": "Additional Resources Ltd",
-      "rate": 500,
-      "length": "6 months",
-      "location": "WC1A2SL",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/business-analyst-digital-health-healthtech/57136623",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-28T21:46:05.791Z"
-    },
-    {
-      "id": "f1cxopde",
-      "title": "Business Analyst - Digital Transformation (JSM / ITSM & HubSpot / CRM)",
-      "company": "Additional Resources Ltd",
-      "rate": 500,
-      "length": "6 months",
-      "location": "WC1A2SL",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/business-analyst-digital-transformation-jsm-itsm-amp-hubspot-crm/57136646",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-28T21:46:05.791Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fjr62tt",
@@ -464,7 +363,26 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
+    },
+    {
+      "id": "fcbwlzt",
+      "title": "Project Manager - Contract / FTC",
+      "company": "YourCode",
+      "rate": 450,
+      "length": "6 months",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5890387250?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-09-21T11:26:19.786Z",
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fgnxpqg",
@@ -483,7 +401,26 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
+    },
+    {
+      "id": "fbsc4jo",
+      "title": "Project Manager (Mining Remediation) - Scotland",
+      "company": "Fusion People",
+      "rate": 354,
+      "length": "9 months",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5890818124?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-09-21T11:26:19.786Z",
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f1ehqd1a",
@@ -503,44 +440,6 @@
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
       "lastSeen": "2026-09-01T19:40:05.923Z"
-    },
-    {
-      "id": "f1163jyz",
-      "title": "Business Analyst",
-      "company": "Local Pensions Partnership",
-      "rate": 0,
-      "length": "12 months",
-      "location": "PR18XJ",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/business-analyst/57181556",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-28T21:46:05.791Z"
-    },
-    {
-      "id": "f1lb6vf7",
-      "title": "Project Manager - FMCG",
-      "company": "Inventum Group ",
-      "rate": 0,
-      "length": "12 months",
-      "location": "Surrey",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/project-manager-fmcg/57137134",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-08-29T00:46:41.066Z"
     },
     {
       "id": "f1ikxk27",
@@ -616,7 +515,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f1a5gof7",
@@ -635,26 +534,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
-    },
-    {
-      "id": "f1sor79m",
-      "title": "Contract Project Manager",
-      "company": "Experis UK",
-      "rate": 0,
-      "length": "6 months",
-      "location": "Bristol, South West England",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5856544617?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-26T12:52:01.506Z",
-      "lastSeen": "2026-08-28T21:46:05.791Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fwk552c",
@@ -673,7 +553,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f9vo79y",
@@ -693,44 +573,6 @@
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
       "lastSeen": "2026-09-18T19:16:03.562Z"
-    },
-    {
-      "id": "f2euqeu",
-      "title": "Program Manager - HR Transformation (Fixed-Term Contract, Remote)",
-      "company": "WTW",
-      "rate": 0,
-      "length": "",
-      "location": "UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5857006596?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-08-28T21:46:05.791Z"
-    },
-    {
-      "id": "fszak7r",
-      "title": "Azure Programme Manager",
-      "company": "Precise Placements",
-      "rate": 0,
-      "length": "6 months",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5858341942?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-08-29T00:46:41.066Z"
     },
     {
       "id": "fpx1q0s",
@@ -844,7 +686,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f1fgafk3",
@@ -901,7 +743,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fsxv1d3",
@@ -1001,7 +843,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f8iy2hy",
@@ -1043,7 +885,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fm2yqby",
@@ -1064,7 +906,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fa7eper",
@@ -1106,7 +948,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f8cvbec",
@@ -1169,7 +1011,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f10nahjr",
@@ -1191,48 +1033,6 @@
       "fromFeed": true,
       "firstSeen": "2026-08-26T12:52:01.506Z",
       "lastSeen": "2026-09-09T19:32:33.321Z"
-    },
-    {
-      "id": "f1sgwwc5",
-      "title": "Mac & Jamf Project Manager",
-      "company": "Square One Resources",
-      "rate": 500,
-      "length": "",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5857757746?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-08-29T00:46:41.066Z"
-    },
-    {
-      "id": "f1q71iqu",
-      "title": "Project Manager",
-      "company": "Experis",
-      "rate": 457,
-      "length": "",
-      "location": "UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5860061101?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-28T21:46:05.791Z",
-      "lastSeen": "2026-08-29T00:46:41.066Z"
     },
     {
       "id": "fl5i80s",
@@ -1274,7 +1074,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f1113k9q",
@@ -1295,7 +1095,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f1cjca48",
@@ -1337,7 +1137,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "fti7a0f",
@@ -1358,7 +1158,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T16:16:42.965Z",
-      "lastSeen": "2026-09-18T19:16:03.562Z"
+      "lastSeen": "2026-09-21T11:26:19.786Z"
     },
     {
       "id": "f10dpikf",
