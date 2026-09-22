@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T16:25:10.232Z",
+  "generatedAt": "2026-09-22T19:56:36.973Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,7 +12,7 @@
   },
   "counts": {
     "safe": 6,
-    "warn": 37,
+    "warn": 35,
     "risk": 20
   },
   "roles": [
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f1lib0rl",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fc7bgqh",
@@ -278,7 +278,7 @@
       "length": "",
       "location": "Balsall Heath, Birmingham",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5892970519?se=AnhjNaK28RG17I8Hj0wZow&utm_medium=api&utm_source=4d94b19c&v=63F506F57B4B3D2D8F7F1D649A5AA88AD72E746B",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5892970519?se=sN2dv7-28RG6-LerT6N-jw&utm_medium=api&utm_source=4d94b19c&v=63F506F57B4B3D2D8F7F1D649A5AA88AD72E746B",
       "rating": 4,
       "evPlus": [
         "outside ir35"
@@ -289,7 +289,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-21T17:56:32.477Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fis0rc3",
@@ -299,7 +299,7 @@
       "length": "",
       "location": "Birmingham, West Midlands",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5893709090?se=AnhjNaK28RG17I8Hj0wZow&utm_medium=api&utm_source=4d94b19c&v=512E63017C8C72C8F59C46174C3956F01286B456",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5893709090?se=sN2dv7-28RG6-LerT6N-jw&utm_medium=api&utm_source=4d94b19c&v=512E63017C8C72C8F59C46174C3956F01286B456",
       "rating": 4,
       "evPlus": [
         "outside ir35"
@@ -310,7 +310,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-22T16:25:10.232Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f19hab8v",
@@ -329,7 +329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f15qdlfb",
@@ -348,7 +348,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fjr62tt",
@@ -405,7 +405,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fcbwlzt",
@@ -443,7 +443,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fbsc4jo",
@@ -463,25 +463,6 @@
       "fromFeed": true,
       "firstSeen": "2026-09-21T11:26:19.786Z",
       "lastSeen": "2026-09-21T20:41:04.564Z"
-    },
-    {
-      "id": "f1ehqd1a",
-      "title": "Project Manager",
-      "company": "Pontoon",
-      "rate": 0,
-      "length": "6 months",
-      "location": "Bristol",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/project-manager/57252488",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-05T21:36:30.426Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
     },
     {
       "id": "f1ikxk27",
@@ -557,7 +538,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f1a5gof7",
@@ -576,7 +557,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fwk552c",
@@ -595,7 +576,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f9vo79y",
@@ -728,7 +709,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f1fgafk3",
@@ -785,7 +766,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fsxv1d3",
@@ -845,27 +826,6 @@
       "lastSeen": "2026-09-18T19:16:03.562Z"
     },
     {
-      "id": "fvz6yih",
-      "title": "Senior Programme Manager",
-      "company": "Certitude",
-      "rate": 0,
-      "length": "12 months",
-      "location": "SW177BQ",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/senior-programme-manager/57250937",
-      "rating": 6,
-      "evPlus": [],
-      "evMinus": [
-        "annual leave"
-      ],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-18T17:16:41.816Z",
-      "lastSeen": "2026-09-01T19:40:05.923Z"
-    },
-    {
       "id": "f1879iv2",
       "title": "Program Manager - HR Transformation (FTC, Remote)",
       "company": "WTW",
@@ -885,7 +845,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f8iy2hy",
@@ -927,7 +887,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fm2yqby",
@@ -948,7 +908,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fa7eper",
@@ -990,7 +950,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-22T16:25:10.232Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f13wc05r",
@@ -1011,7 +971,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f8cvbec",
@@ -1074,7 +1034,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f10nahjr",
@@ -1137,7 +1097,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f1113k9q",
@@ -1158,7 +1118,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1179,7 +1139,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "fti7a0f",
@@ -1200,7 +1160,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T16:16:42.965Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f10dpikf",
@@ -1252,7 +1212,7 @@
       "length": "",
       "location": "Farringdon, Central London",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5892772815?se=AnhjNaK28RG17I8Hj0wZow&utm_medium=api&utm_source=4d94b19c&v=D16F7CBFBF82D27E2D7229E9D973FA1926484FA5",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5892772815?se=sN2dv7-28RG6-LerT6N-jw&utm_medium=api&utm_source=4d94b19c&v=D16F7CBFBF82D27E2D7229E9D973FA1926484FA5",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -1263,7 +1223,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-21T17:56:32.477Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     },
     {
       "id": "f12szokc",
@@ -1285,7 +1245,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-22T16:25:10.232Z",
-      "lastSeen": "2026-09-22T16:25:10.232Z"
+      "lastSeen": "2026-09-22T19:56:36.973Z"
     }
   ]
 }
