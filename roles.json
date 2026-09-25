@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T16:42:57.751Z",
+  "generatedAt": "2026-09-25T20:10:23.229Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 6,
-    "warn": 35,
-    "risk": 21
+    "warn": 31,
+    "risk": 20
   },
   "roles": [
     {
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fo8h82a",
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-24T16:37:29.584Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fpggj1i",
@@ -162,7 +162,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-24T10:44:38.786Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fub6hwa",
@@ -226,27 +226,6 @@
       "fromFeed": true,
       "firstSeen": "2026-08-05T21:36:30.426Z",
       "lastSeen": "2026-09-09T10:23:30.180Z"
-    },
-    {
-      "id": "f1rvogfr",
-      "title": "Contract Business Analyst - EDI & Integrations",
-      "company": "Spectrum IT Recruitment",
-      "rate": 0,
-      "length": "9 months",
-      "location": "Englefield, Reading",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5869493833?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-04T10:09:37.989Z",
-      "lastSeen": "2026-09-04T19:11:35.182Z"
     },
     {
       "id": "fqpv1cd",
@@ -329,7 +308,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f15qdlfb",
@@ -348,7 +327,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fjr62tt",
@@ -386,7 +365,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fcbwlzt",
@@ -424,7 +403,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fbsc4jo",
@@ -500,7 +479,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-14T13:05:49.305Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f1a5gof7",
@@ -519,7 +498,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fwk552c",
@@ -538,7 +517,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f9vo79y",
@@ -560,63 +539,6 @@
       "lastSeen": "2026-09-18T19:16:03.562Z"
     },
     {
-      "id": "fbkqv71",
-      "title": "Program Manager - Fully Remote",
-      "company": "Mercor",
-      "rate": 0,
-      "length": "",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5866113174?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-02T10:10:49.225Z",
-      "lastSeen": "2026-09-04T19:11:35.182Z"
-    },
-    {
-      "id": "f3wwp1b",
-      "title": "Project Manager",
-      "company": "4M Recruitment Ltd",
-      "rate": 0,
-      "length": "6 months",
-      "location": "Glasgow, Scotland",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5869463524?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-03T19:29:12.843Z",
-      "lastSeen": "2026-09-04T19:11:35.182Z"
-    },
-    {
-      "id": "f7w5nqb",
-      "title": "Project Manager",
-      "company": "4M Recruitment",
-      "rate": 0,
-      "length": "6 months",
-      "location": "Scotland, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5869560150?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-04T10:09:37.989Z",
-      "lastSeen": "2026-09-04T19:11:35.182Z"
-    },
-    {
       "id": "f1wiway",
       "title": "Transformation Project Manager",
       "company": "EACH Counselling",
@@ -633,7 +555,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f1fgafk3",
@@ -690,7 +612,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fsxv1d3",
@@ -785,7 +707,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-23T10:27:54.260Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f1ksq7dj",
@@ -804,7 +726,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T16:42:57.751Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f15cv0y8",
@@ -823,7 +745,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T16:42:57.751Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f1879iv2",
@@ -845,7 +767,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-24T17:20:51.379Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f8iy2hy",
@@ -887,7 +809,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-21T17:17:59.671Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fm2yqby",
@@ -908,28 +830,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
-    },
-    {
-      "id": "fa7eper",
-      "title": "Cyber Security Project Manager",
-      "company": "Square One Resources",
-      "rate": 650,
-      "length": "6 months",
-      "location": "UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5869548171?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-04T10:09:37.989Z",
-      "lastSeen": "2026-09-04T19:11:35.182Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f1fqr4mu",
@@ -950,7 +851,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-22T16:25:10.232Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f13wc05r",
@@ -971,7 +872,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f8cvbec",
@@ -1034,7 +935,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f10nahjr",
@@ -1097,7 +998,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fd3u9mw",
@@ -1118,7 +1019,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f1113k9q",
@@ -1139,7 +1040,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1160,7 +1061,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "fti7a0f",
@@ -1181,7 +1082,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T16:16:42.965Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
       "id": "f10dpikf",
@@ -1266,7 +1167,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-22T16:25:10.232Z",
-      "lastSeen": "2026-09-25T16:42:57.751Z"
+      "lastSeen": "2026-09-25T20:10:23.229Z"
     }
   ]
 }
