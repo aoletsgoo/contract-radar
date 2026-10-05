@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T20:17:30.945Z",
+  "generatedAt": "2026-10-05T22:57:48.136Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -11,9 +11,9 @@
     "days": 220
   },
   "counts": {
-    "safe": 7,
-    "warn": 34,
-    "risk": 26
+    "safe": 6,
+    "warn": 33,
+    "risk": 25
   },
   "roles": [
     {
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1585mq4",
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fo8h82a",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-24T16:37:29.584Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fpggj1i",
@@ -121,27 +121,6 @@
       "fromFeed": true,
       "firstSeen": "2026-08-07T13:03:58.810Z",
       "lastSeen": "2026-09-18T19:16:03.562Z"
-    },
-    {
-      "id": "fuulk78",
-      "title": "Contract Business Analyst - EDI & Integrations",
-      "company": "Spectrum IT Recruitment",
-      "rate": 0,
-      "length": "9 months",
-      "location": "Reading",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/contract-business-analyst-edi-amp-integrations/57307490",
-      "rating": 2,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Apply — wording reads as outside IR35.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-03T15:54:30.952Z",
-      "lastSeen": "2026-09-14T20:39:49.361Z"
     },
     {
       "id": "f1lplyk7",
@@ -265,7 +244,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f15qdlfb",
@@ -284,7 +263,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fjr62tt",
@@ -322,7 +301,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fidfv9c",
@@ -341,7 +320,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fcbwlzt",
@@ -379,7 +358,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fbsc4jo",
@@ -474,7 +453,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f9vo79y",
@@ -512,26 +491,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
-    },
-    {
-      "id": "fpbtn2g",
-      "title": "Technical Project Manager | Contract | UK, Remote",
-      "company": "Tech Holding",
-      "rate": 0,
-      "length": "",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5881154650?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-09-14T20:39:49.361Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1pzn53z",
@@ -550,7 +510,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fsxv1d3",
@@ -683,7 +643,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T16:42:57.751Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1w0r7mb",
@@ -721,7 +681,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1dfgt7i",
@@ -778,7 +738,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fbiyh11",
@@ -841,27 +801,6 @@
       "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
-      "id": "f8iy2hy",
-      "title": "Technical Programme Manager",
-      "company": "Matchtech ",
-      "rate": 800,
-      "length": "3 months",
-      "location": "Surrey",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/technical-programme-manager/57247718",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "normal",
-      "notes": "Skip unless the recruiter contradicts the advert.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-17T17:15:49.426Z",
-      "lastSeen": "2026-09-14T20:39:49.361Z"
-    },
-    {
       "id": "fdtljy9",
       "title": "Contract Workday Financials Implementation Project Manager",
       "company": "Opus Recruitment Solutions Ltd",
@@ -880,7 +819,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1h5omdq",
@@ -964,7 +903,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f131kw9w",
@@ -985,7 +924,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1fqr4mu",
@@ -1027,7 +966,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1sav56w",
@@ -1048,7 +987,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f8cvbec",
@@ -1111,7 +1050,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f19jcm0w",
@@ -1132,7 +1071,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fl5i80s",
@@ -1174,7 +1113,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fd3u9mw",
@@ -1195,7 +1134,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1113k9q",
@@ -1216,7 +1155,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1237,7 +1176,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "fti7a0f",
@@ -1342,7 +1281,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     },
     {
       "id": "f12szokc",
@@ -1364,7 +1303,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-22T16:25:10.232Z",
-      "lastSeen": "2026-10-05T20:17:30.945Z"
+      "lastSeen": "2026-10-05T22:57:48.136Z"
     }
   ]
 }
