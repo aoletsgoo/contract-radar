@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T22:57:48.136Z",
+  "generatedAt": "2026-10-06T12:25:12.228Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 6,
-    "warn": 33,
-    "risk": 25
+    "warn": 34,
+    "risk": 30
   },
   "roles": [
     {
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1585mq4",
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fo8h82a",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-24T16:37:29.584Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fpggj1i",
@@ -244,7 +244,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-01T19:40:05.923Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f15qdlfb",
@@ -263,7 +263,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fjr62tt",
@@ -301,7 +301,26 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
+    },
+    {
+      "id": "f18y62lo",
+      "title": "Cap DWP Delivery Manager",
+      "company": "TXP Technology x People",
+      "rate": 468,
+      "length": "6 months",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/cap-dwp-delivery-manager/57427202",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-06T12:25:12.228Z",
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fidfv9c",
@@ -320,7 +339,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fcbwlzt",
@@ -358,7 +377,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fbsc4jo",
@@ -453,7 +472,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-27T17:05:07.681Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f9vo79y",
@@ -491,7 +510,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1pzn53z",
@@ -510,7 +529,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fsxv1d3",
@@ -643,7 +662,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T16:42:57.751Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1w0r7mb",
@@ -681,7 +700,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1dfgt7i",
@@ -738,7 +757,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fbiyh11",
@@ -819,7 +838,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1h5omdq",
@@ -903,7 +922,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f131kw9w",
@@ -924,7 +943,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1fqr4mu",
@@ -966,7 +985,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1sav56w",
@@ -987,7 +1006,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f8cvbec",
@@ -1050,7 +1069,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
+    },
+    {
+      "id": "f1y0dhw7",
+      "title": "NEC System Project Manager",
+      "company": "Invitise Ltd",
+      "rate": 550,
+      "length": "6 months",
+      "location": "EC1A1AA",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/nec-system-project-manager/57425880",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-06T12:25:12.228Z",
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f19jcm0w",
@@ -1071,7 +1111,49 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
+    },
+    {
+      "id": "f18n386q",
+      "title": "Senior Business Analyst - Remote Working - Inside IR35",
+      "company": "Lorien",
+      "rate": 525,
+      "length": "",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/senior-business-analyst-remote-working-inside-ir35/57427537",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-06T12:25:12.228Z",
+      "lastSeen": "2026-10-06T12:25:12.228Z"
+    },
+    {
+      "id": "f12kqbya",
+      "title": "Project Manager - Remote Working - Inside IR35",
+      "company": "Lorien",
+      "rate": 489,
+      "length": "",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/project-manager-remote-working-inside-ir35/57427385",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-06T12:25:12.228Z",
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fl5i80s",
@@ -1113,7 +1195,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-28T17:53:05.771Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fd3u9mw",
@@ -1134,7 +1216,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1113k9q",
@@ -1155,7 +1237,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
+    },
+    {
+      "id": "f1hoohy6",
+      "title": "Business Analyst - Remote Working - Inside IR35",
+      "company": "Lorien",
+      "rate": 437,
+      "length": "",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/business-analyst-remote-working-inside-ir35/57427525",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-06T12:25:12.228Z",
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1176,7 +1279,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-08-26T18:46:13.413Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "fti7a0f",
@@ -1281,7 +1384,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
+    },
+    {
+      "id": "f1mw47mx",
+      "title": "Project Manager",
+      "company": "Rullion",
+      "rate": 0,
+      "length": "18 months",
+      "location": "Kent, South East England",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5913380282?utm_medium=api&utm_source=4d94b19c",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "paye"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-06T12:25:12.228Z",
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     },
     {
       "id": "f12szokc",
@@ -1303,7 +1427,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-22T16:25:10.232Z",
-      "lastSeen": "2026-10-05T22:57:48.136Z"
+      "lastSeen": "2026-10-06T12:25:12.228Z"
     }
   ]
 }
