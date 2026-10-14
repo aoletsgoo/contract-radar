@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:40:42.472Z",
+  "generatedAt": "2026-10-14T20:21:58.664Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 5,
-    "warn": 36,
-    "risk": 25
+    "warn": 35,
+    "risk": 24
   },
   "roles": [
     {
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fxu6vhi",
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-07T12:18:05.403Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1585mq4",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fdtljy9",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fo8h82a",
@@ -207,27 +207,6 @@
       "lastSeen": "2026-10-09T21:22:44.789Z"
     },
     {
-      "id": "fuk8uaz",
-      "title": "Project Manager",
-      "company": "VIQU Energy Limited",
-      "rate": 0,
-      "length": "",
-      "location": "Balsall Heath, Birmingham",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5892970519?se=3if6lIi38RGz-cafFv7gOA&utm_medium=api&utm_source=4d94b19c&v=63F506F57B4B3D2D8F7F1D649A5AA88AD72E746B",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-21T17:56:32.477Z",
-      "lastSeen": "2026-09-23T19:54:13.065Z"
-    },
-    {
       "id": "fis0rc3",
       "title": "Commercial Solar Project Manager",
       "company": "VIQU IT Recruitment",
@@ -309,7 +288,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-13T21:37:30.292Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f19hab8v",
@@ -347,7 +326,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1re7yhv",
@@ -366,7 +345,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-14T10:50:53.690Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fe6jdd0",
@@ -376,7 +355,7 @@
       "length": "",
       "location": "The City, Central London",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5927545114?se=KDdpC-7H8RGzTbLyus6u7g&utm_medium=api&utm_source=4d94b19c&v=F14E571423EBE8D2D7D325E999247453D2F6A6A2",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5927545114?se=5Gre8AzI8RGx_ZfBF2hE-w&utm_medium=api&utm_source=4d94b19c&v=F14E571423EBE8D2D7D325E999247453D2F6A6A2",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -385,7 +364,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-14T16:40:42.472Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f8wm0v",
@@ -404,7 +383,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f18y62lo",
@@ -442,7 +421,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fgnxpqg",
@@ -461,7 +440,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-02T16:04:52.866Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f3zsg3",
@@ -537,7 +516,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1pzn53z",
@@ -556,7 +535,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fzvbxit",
@@ -632,7 +611,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T16:42:57.751Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1w0r7mb",
@@ -670,7 +649,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1dfgt7i",
@@ -727,7 +706,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fbiyh11",
@@ -928,7 +907,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1fqr4mu",
@@ -970,7 +949,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1sav56w",
@@ -1033,7 +1012,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f19jcm0w",
@@ -1054,7 +1033,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f18n386q",
@@ -1075,7 +1054,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f12kqbya",
@@ -1096,7 +1075,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "fs8ou2z",
@@ -1138,7 +1117,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1113k9q",
@@ -1159,7 +1138,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1hoohy6",
@@ -1180,7 +1159,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1225,27 +1204,6 @@
       "lastSeen": "2026-09-25T20:10:23.229Z"
     },
     {
-      "id": "f17ghj93",
-      "title": "Project Manager - Retail Construction",
-      "company": "Fit Out UK",
-      "rate": 0,
-      "length": "",
-      "location": "Farringdon, Central London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5892772815?se=0pOMk4i38RGxPoSQSRWI2w&utm_medium=api&utm_source=4d94b19c&v=D16F7CBFBF82D27E2D7229E9D973FA1926484FA5",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "paye"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-21T17:56:32.477Z",
-      "lastSeen": "2026-09-23T19:54:13.065Z"
-    },
-    {
       "id": "fj0tzyq",
       "title": "Programme Manager Business Partner",
       "company": "4Recruitment Services ",
@@ -1264,7 +1222,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-14T16:40:42.472Z"
+      "lastSeen": "2026-10-14T20:21:58.664Z"
     },
     {
       "id": "f1mw47mx",
