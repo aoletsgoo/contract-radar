@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:17:03.660Z",
+  "generatedAt": "2026-10-20T10:38:45.641Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -36,7 +36,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T10:16:50.955Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fxu6vhi",
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-07T12:18:05.403Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1585mq4",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fdtljy9",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fo8h82a",
@@ -163,6 +163,27 @@
       "fromFeed": true,
       "firstSeen": "2026-10-02T11:34:36.664Z",
       "lastSeen": "2026-10-02T21:04:29.293Z"
+    },
+    {
+      "id": "fymo8cm",
+      "title": "Delivery Manager (Retail)",
+      "company": "Sanderson ",
+      "rate": 550,
+      "length": "6 months",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/delivery-manager-retail/57474788",
+      "rating": 4,
+      "evPlus": [
+        "umbrella company"
+      ],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-20T10:38:45.641Z",
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f19am212",
@@ -288,7 +309,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f19hab8v",
@@ -326,7 +347,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1re7yhv",
@@ -345,7 +366,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-14T10:50:53.690Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fe6jdd0",
@@ -383,7 +404,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f18y62lo",
@@ -421,7 +442,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-08T16:07:34.256Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fgnxpqg",
@@ -462,25 +483,6 @@
       "lastSeen": "2026-09-29T21:07:06.922Z"
     },
     {
-      "id": "f1a5gof7",
-      "title": "Program Manager, Subscriptions Delivery",
-      "company": "Randstad Technologies",
-      "rate": 0,
-      "length": "6 months",
-      "location": "London",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/program-manager-subscriptions-delivery/57248081",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Call the recruiter before applying.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-08-18T06:25:27.580Z",
-      "lastSeen": "2026-09-28T22:18:39.766Z"
-    },
-    {
       "id": "fwk552c",
       "title": "Azure Programme Manager",
       "company": "Precise Placements ",
@@ -516,7 +518,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T15:56:38.277Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1pzn53z",
@@ -535,7 +537,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1ksq7dj",
@@ -573,7 +575,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T16:42:57.751Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1w0r7mb",
@@ -592,7 +594,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "frnt7q7",
@@ -611,7 +613,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1dfgt7i",
@@ -668,7 +670,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fbiyh11",
@@ -847,7 +849,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1fqr4mu",
@@ -889,7 +891,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-10T19:19:29.579Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1sav56w",
@@ -952,7 +954,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fhhvqxc",
@@ -973,7 +975,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-19T18:25:25.256Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f19jcm0w",
@@ -994,7 +996,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f18n386q",
@@ -1015,7 +1017,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f12kqbya",
@@ -1057,7 +1059,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-19T18:25:25.256Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "fs8ou2z",
@@ -1099,7 +1101,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1113k9q",
@@ -1120,7 +1122,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1hoohy6",
@@ -1162,7 +1164,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-19T18:25:25.256Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1204,7 +1206,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f1mw47mx",
@@ -1288,7 +1290,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T19:44:32.530Z",
-      "lastSeen": "2026-10-19T21:17:03.660Z"
+      "lastSeen": "2026-10-20T10:38:45.641Z"
     },
     {
       "id": "f12szokc",
