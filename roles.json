@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T11:51:56.484Z",
+  "generatedAt": "2026-10-26T18:21:47.990Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 5,
-    "warn": 35,
-    "risk": 24
+    "warn": 36,
+    "risk": 26
   },
   "roles": [
     {
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-07T12:18:05.403Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1585mq4",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "fdtljy9",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "fo8h82a",
@@ -330,7 +330,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f17yext4",
@@ -389,7 +389,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1re7yhv",
@@ -408,7 +408,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-14T10:50:53.690Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "fe6jdd0",
@@ -446,7 +446,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1eokja8",
@@ -503,7 +503,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f18y62lo",
@@ -617,7 +617,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T17:49:42.547Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f15cv0y8",
@@ -655,7 +655,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "frnt7q7",
@@ -674,7 +674,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1l0eqs4",
@@ -712,7 +712,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f5sulkd",
@@ -788,7 +788,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f5vj15z",
@@ -808,6 +808,46 @@
       "fromFeed": true,
       "firstSeen": "2026-10-23T16:35:19.730Z",
       "lastSeen": "2026-10-23T20:08:19.640Z"
+    },
+    {
+      "id": "f1wgat2t",
+      "title": "Senior Project Manager - Corporate Restructuring & Transformation",
+      "company": "Macildowie Recruitment and Retention",
+      "rate": 0,
+      "length": "9 months",
+      "location": "NN11AF",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/senior-project-manager-corporate-restructuring-amp-transformation/57492929",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-26T18:21:47.990Z",
+      "lastSeen": "2026-10-26T18:21:47.990Z"
+    },
+    {
+      "id": "f2kalkr",
+      "title": "Workday HCM Project Manager – HR Implementation",
+      "company": "MYO Talent",
+      "rate": 700,
+      "length": "6 months",
+      "location": "Warwickshire",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/workday-hcm-project-manager--hr-implementation/57495028",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-26T18:21:47.990Z",
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "fm2yqby",
@@ -849,7 +889,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f13wc05r",
@@ -933,7 +973,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "fhhvqxc",
@@ -954,7 +994,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-19T18:25:25.256Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f19jcm0w",
@@ -975,7 +1015,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f18n386q",
@@ -996,7 +1036,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
+    },
+    {
+      "id": "fox53mz",
+      "title": "Programme Manager CGEMJP00361484",
+      "company": "Experis UK",
+      "rate": 506,
+      "length": "",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5942382683?utm_medium=api&utm_source=4d94b19c",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-26T18:21:47.990Z",
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f12kqbya",
@@ -1080,7 +1141,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1113k9q",
@@ -1101,7 +1162,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-14T11:14:25.629Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1hoohy6",
@@ -1143,7 +1204,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-19T18:25:25.256Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1185,7 +1246,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-26T11:51:56.484Z"
+      "lastSeen": "2026-10-26T18:21:47.990Z"
     },
     {
       "id": "f1mw47mx",
