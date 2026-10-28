@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T21:01:56.815Z",
+  "generatedAt": "2026-10-28T11:49:54.108Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -11,8 +11,8 @@
     "days": 220
   },
   "counts": {
-    "safe": 7,
-    "warn": 40,
+    "safe": 6,
+    "warn": 43,
     "risk": 28
   },
   "roles": [
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-07T12:18:05.403Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1585mq4",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f2xv76f",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fqt2tm3",
@@ -120,7 +120,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fdtljy9",
@@ -141,28 +141,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
-    },
-    {
-      "id": "fo8h82a",
-      "title": "Lead Product Delivery Manager",
-      "company": "Seymour John",
-      "rate": 550,
-      "length": "6 months",
-      "location": "London",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/lead-product-delivery-manager/57388104",
-      "rating": 2,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "normal",
-      "notes": "Apply — wording reads as outside IR35.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-24T16:37:29.584Z",
-      "lastSeen": "2026-10-06T21:20:10.941Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1h5omdq",
@@ -270,6 +249,27 @@
       "lastSeen": "2026-10-23T20:08:19.640Z"
     },
     {
+      "id": "f1nxf6jw",
+      "title": "S/4HANA Public Cloud Project Manager - Contract - Outside IR35",
+      "company": "IO Associates",
+      "rate": 500,
+      "length": "",
+      "location": "Uxbridge, London",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5943782534?utm_medium=api&utm_source=4d94b19c",
+      "rating": 4,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-28T11:49:54.108Z",
+      "lastSeen": "2026-10-28T11:49:54.108Z"
+    },
+    {
       "id": "f19am212",
       "title": "Project Manager - Finance Transformations",
       "company": "Trust in SODA",
@@ -372,7 +372,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f17yext4",
@@ -450,7 +450,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-14T10:50:53.690Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fe6jdd0",
@@ -488,7 +488,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1eokja8",
@@ -545,7 +545,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f18y62lo",
@@ -602,7 +602,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fgnxpqg",
@@ -716,7 +716,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "frnt7q7",
@@ -735,7 +735,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1l0eqs4",
@@ -773,7 +773,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f5sulkd",
@@ -849,7 +849,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f5vj15z",
@@ -887,7 +887,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1ghydyc",
@@ -906,7 +906,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "faz1bko",
@@ -928,6 +928,44 @@
       "lastSeen": "2026-10-27T21:01:56.815Z"
     },
     {
+      "id": "ffui320",
+      "title": "Project Manager - Remote",
+      "company": "BCT Resourcing",
+      "rate": 0,
+      "length": "",
+      "location": "London, UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5943776016?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-28T11:49:54.108Z",
+      "lastSeen": "2026-10-28T11:49:54.108Z"
+    },
+    {
+      "id": "f1rmlrnh",
+      "title": "Technical Program Manager",
+      "company": "INTEC SELECT LIMITED",
+      "rate": 0,
+      "length": "12 months",
+      "location": "London, UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5943803213?se=QpdfuMXS8RG6zOi37PL_Zg&utm_medium=api&utm_source=4d94b19c&v=36B185A7452D75B531F516CD04457D7A77ACA6EA",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-28T11:49:54.108Z",
+      "lastSeen": "2026-10-28T11:49:54.108Z"
+    },
+    {
       "id": "f9wwx4q",
       "title": "Technical Program Manager, Finance Tech (Contract)",
       "company": "Altum Consulting",
@@ -946,7 +984,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f2kalkr",
@@ -967,7 +1005,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fm2yqby",
@@ -1009,7 +1047,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f13wc05r",
@@ -1054,27 +1092,6 @@
       "lastSeen": "2026-10-07T21:40:40.695Z"
     },
     {
-      "id": "f1f4fce1",
-      "title": "Digital Project Manager",
-      "company": "Reed",
-      "rate": 550,
-      "length": "",
-      "location": "EC2N3AQ",
-      "source": "Reed",
-      "url": "https://www.reed.co.uk/jobs/digital-project-manager/57403014",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "normal",
-      "notes": "Skip unless the recruiter contradicts the advert.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-10-06T21:20:10.941Z"
-    },
-    {
       "id": "f1y0dhw7",
       "title": "NEC System Project Manager",
       "company": "Invitise Ltd",
@@ -1093,7 +1110,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fhhvqxc",
@@ -1135,7 +1152,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-16T19:47:34.746Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f18n386q",
@@ -1156,7 +1173,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fti7a0f",
@@ -1177,7 +1194,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fox53mz",
@@ -1198,7 +1215,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "fypuxz3",
@@ -1219,7 +1236,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f12kqbya",
@@ -1303,7 +1320,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1113k9q",
@@ -1366,7 +1383,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-19T18:25:25.256Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1xp9s0a",
@@ -1408,7 +1425,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-10-27T21:01:56.815Z"
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f1mw47mx",
@@ -1514,6 +1531,27 @@
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
       "lastSeen": "2026-10-20T20:11:10.679Z"
+    },
+    {
+      "id": "f1gqorx2",
+      "title": "SAP Programme Manager - EWM - Remote - Inside IR35",
+      "company": "Morson Edge",
+      "rate": 0,
+      "length": "",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5944368523?se=QpdfuMXS8RG6zOi37PL_Zg&utm_medium=api&utm_source=4d94b19c&v=800F4CA563BC54AABCCA665916AB98F2BC446C4F",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-10-28T11:49:54.108Z",
+      "lastSeen": "2026-10-28T11:49:54.108Z"
     },
     {
       "id": "f12szokc",
