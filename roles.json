@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T21:27:31.859Z",
+  "generatedAt": "2026-11-02T23:43:35.932Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -13,7 +13,7 @@
   "counts": {
     "safe": 6,
     "warn": 41,
-    "risk": 23
+    "risk": 25
   },
   "roles": [
     {
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-07T12:18:05.403Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1585mq4",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f2xv76f",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fqt2tm3",
@@ -120,7 +120,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fdtljy9",
@@ -141,7 +141,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1sy5k2r",
@@ -309,7 +309,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f17yext4",
@@ -387,7 +387,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-14T10:50:53.690Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fe6jdd0",
@@ -425,7 +425,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1eokja8",
@@ -482,7 +482,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f18y62lo",
@@ -539,7 +539,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fgnxpqg",
@@ -634,7 +634,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "frnt7q7",
@@ -653,7 +653,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1l0eqs4",
@@ -691,7 +691,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1kwmc8e",
@@ -710,7 +710,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f5vj15z",
@@ -748,7 +748,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1ghydyc",
@@ -834,7 +834,7 @@
       "length": "",
       "location": "Hyde Park, Leeds",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5947798379?se=PJKPPATX8RGMt57NZ7L7TQ&utm_medium=api&utm_source=4d94b19c&v=8D0C12EB853DB4DAA6C8D40CD78EC03A0F2C8DA6",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5947798379?se=qooiPxfX8RGZ_cfEpAkyOw&utm_medium=api&utm_source=4d94b19c&v=8D0C12EB853DB4DAA6C8D40CD78EC03A0F2C8DA6",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -843,7 +843,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-02T14:12:02.526Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fvrsti6",
@@ -862,7 +862,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-02T14:12:02.526Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1mqkcs5",
@@ -881,7 +881,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-02T14:12:02.526Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "ff5iscg",
@@ -900,7 +900,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-02T14:12:02.526Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1dfgt7i",
@@ -910,7 +910,7 @@
       "length": "",
       "location": "Swinley, Wigan",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5950836525?se=PJKPPATX8RGMt57NZ7L7TQ&utm_medium=api&utm_source=4d94b19c&v=42C466D7DABF57D7FF82E1BA6B8EF2C0893DBF7F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5950836525?se=qooiPxfX8RGZ_cfEpAkyOw&utm_medium=api&utm_source=4d94b19c&v=42C466D7DABF57D7FF82E1BA6B8EF2C0893DBF7F",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -919,7 +919,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-02T21:27:31.859Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f9wwx4q",
@@ -940,7 +940,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f2kalkr",
@@ -961,7 +961,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f131kw9w",
@@ -1024,7 +1024,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fhhvqxc",
@@ -1087,7 +1087,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fti7a0f",
@@ -1108,7 +1108,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fox53mz",
@@ -1195,6 +1195,48 @@
       "lastSeen": "2026-10-26T11:51:56.484Z"
     },
     {
+      "id": "frcgkxo",
+      "title": "Interim Business Analyst",
+      "company": "Deerfoot Recruitment Solutions Limited",
+      "rate": 475,
+      "length": "3 months",
+      "location": "The City, Central London",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5951014295?utm_medium=api&utm_source=4d94b19c",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-02T23:43:35.932Z",
+      "lastSeen": "2026-11-02T23:43:35.932Z"
+    },
+    {
+      "id": "fny779k",
+      "title": "Interim Business Analyst",
+      "company": "Deerfoot Recruitment Solutions",
+      "rate": 475,
+      "length": "3 months",
+      "location": "The City, Central London",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5951006395?utm_medium=api&utm_source=4d94b19c",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-02T23:43:35.932Z",
+      "lastSeen": "2026-11-02T23:43:35.932Z"
+    },
+    {
       "id": "fd3u9mw",
       "title": "Regulatory Operations Project Manager - Tech Platform (EMEA)",
       "company": "Morgan McKinley",
@@ -1213,7 +1255,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f1113k9q",
@@ -1276,7 +1318,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-19T18:25:25.256Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "fj0tzyq",
@@ -1297,7 +1339,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-11-02T21:27:31.859Z"
+      "lastSeen": "2026-11-02T23:43:35.932Z"
     },
     {
       "id": "f7q2ueh",
