@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T22:25:41.831Z",
+  "generatedAt": "2026-11-06T13:26:52.355Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 7,
-    "warn": 43,
-    "risk": 30
+    "warn": 45,
+    "risk": 32
   },
   "roles": [
     {
@@ -57,7 +57,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-07T12:18:05.403Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f1585mq4",
@@ -78,7 +78,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f2xv76f",
@@ -99,7 +99,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fqt2tm3",
@@ -120,7 +120,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fdtljy9",
@@ -141,7 +141,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T17:41:44.070Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "famjq17",
@@ -162,7 +162,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f1sy5k2r",
@@ -309,7 +309,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f17yext4",
@@ -410,7 +410,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-14T10:50:53.690Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fe6jdd0",
@@ -448,7 +448,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f1eokja8",
@@ -505,7 +505,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fidfv9c",
@@ -543,7 +543,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fb1jmlz",
@@ -638,7 +638,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-29T17:45:58.234Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "frnt7q7",
@@ -657,7 +657,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-30T11:34:37.220Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f1l0eqs4",
@@ -695,7 +695,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-02T17:33:43.687Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f1kwmc8e",
@@ -714,7 +714,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f5vj15z",
@@ -752,7 +752,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f1ghydyc",
@@ -980,7 +980,45 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
+    },
+    {
+      "id": "fp53b74",
+      "title": "Switchgear Project Manager",
+      "company": "Vertiv Group",
+      "rate": 0,
+      "length": "",
+      "location": "Campsie, Londonderry",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5955442858?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-06T13:26:52.355Z",
+      "lastSeen": "2026-11-06T13:26:52.355Z"
+    },
+    {
+      "id": "fre4jqa",
+      "title": "Programme Manager",
+      "company": "Macallam Resourcing",
+      "rate": 0,
+      "length": "",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5954786418?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-06T13:26:52.355Z",
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f9wwx4q",
@@ -1001,7 +1039,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f2kalkr",
@@ -1025,6 +1063,27 @@
       "lastSeen": "2026-11-04T22:16:11.001Z"
     },
     {
+      "id": "f1ndm8fi",
+      "title": "ServiceNow Business Analyst - SC Cleared",
+      "company": "Hays Specialist Recruitment Limited",
+      "rate": 670,
+      "length": "",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/servicenow-business-analyst-sc-cleared/57537736",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-06T13:26:52.355Z",
+      "lastSeen": "2026-11-06T13:26:52.355Z"
+    },
+    {
       "id": "f131kw9w",
       "title": "Senior Business analyst",
       "company": "TXP Technology x People",
@@ -1043,7 +1102,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f13wc05r",
@@ -1085,7 +1144,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fhhvqxc",
@@ -1148,7 +1207,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-06T12:25:12.228Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fti7a0f",
@@ -1169,7 +1228,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "fox53mz",
@@ -1358,7 +1417,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-25T10:49:00.518Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f1113k9q",
@@ -1424,6 +1483,27 @@
       "lastSeen": "2026-11-05T13:42:27.663Z"
     },
     {
+      "id": "f1vczp5j",
+      "title": "Program Manager (POS Product Delivery)",
+      "company": "CPS Group  Limited",
+      "rate": 365,
+      "length": "36 months",
+      "location": "Rusholme, Manchester",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5955610427?se=DtGgwuXZ8RGhiZAYPFO1kw&utm_medium=api&utm_source=4d94b19c&v=8FE6F553C8D1CB26B498A0FE313E30576CD67333",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-06T13:26:52.355Z",
+      "lastSeen": "2026-11-06T13:26:52.355Z"
+    },
+    {
       "id": "fj0tzyq",
       "title": "Programme Manager Business Partner",
       "company": "4Recruitment Services ",
@@ -1442,7 +1522,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-09-28T19:20:15.164Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f7q2ueh",
@@ -1589,7 +1669,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f15yqb7k",
@@ -1599,7 +1679,7 @@
       "length": "6 months",
       "location": "Newcastle Upon Tyne, Tyne & Wear",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5953047017?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953047017?se=usBfwuXZ8RGw9rrUVHtY8g&utm_medium=api&utm_source=4d94b19c&v=A8DDBB431832EE6D522127E059221909D5C80CBD",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -1610,7 +1690,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
       "id": "f13k2l8",
@@ -1620,7 +1700,7 @@
       "length": "6 months",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953143379?se=TFJy3WfZ8RGtXuOaM4khOQ&utm_medium=api&utm_source=4d94b19c&v=1FDEB7B58F9722350E9F73176BB57D73368D4B91",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953143379?se=usBfwuXZ8RGw9rrUVHtY8g&utm_medium=api&utm_source=4d94b19c&v=1FDEB7B58F9722350E9F73176BB57D73368D4B91",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -1631,7 +1711,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-05T22:25:41.831Z"
+      "lastSeen": "2026-11-06T13:26:52.355Z"
     }
   ]
 }
