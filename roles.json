@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T23:41:08.069Z",
+  "generatedAt": "2026-11-18T14:47:51.513Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -11,9 +11,9 @@
     "days": 220
   },
   "counts": {
-    "safe": 8,
-    "warn": 51,
-    "risk": 30
+    "safe": 9,
+    "warn": 52,
+    "risk": 34
   },
   "roles": [
     {
@@ -35,7 +35,28 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-07T12:18:05.403Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
+    },
+    {
+      "id": "f1ifj2br",
+      "title": "Programme Manager - Salesforce",
+      "company": "Mason Frank",
+      "rate": 1000,
+      "length": "10 months",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/programme-manager-salesforce/57587524",
+      "rating": 2,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Apply — wording reads as outside IR35.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-18T14:47:51.513Z",
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1585mq4",
@@ -77,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fqt2tm3",
@@ -98,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fdtljy9",
@@ -140,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "famjq17",
@@ -161,7 +182,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1wi5bbq",
@@ -182,7 +203,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1sy5k2r",
@@ -332,6 +353,27 @@
       "lastSeen": "2026-11-16T21:42:00.145Z"
     },
     {
+      "id": "f159f86i",
+      "title": "Project Manager - ERP Testing - Contract Role",
+      "company": "Project Blackbook",
+      "rate": 500,
+      "length": "4 months",
+      "location": "Borough, South East London",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5969731721?utm_medium=api&utm_source=4d94b19c",
+      "rating": 4,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-18T14:47:51.513Z",
+      "lastSeen": "2026-11-18T14:47:51.513Z"
+    },
+    {
       "id": "fs48m1h",
       "title": "Programme Manager - People & Change",
       "company": "Goodman Masson",
@@ -350,7 +392,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1ae4lsr",
@@ -476,7 +518,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f12hoxit",
@@ -486,7 +528,7 @@
       "length": "6 months",
       "location": "London, UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5969296732?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5969296732?se=LFRcEF_j8RGXMNRRpZDicQ&utm_medium=api&utm_source=4d94b19c&v=9CD8798DE591274F47176E2F1A9237CC2A594446",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -495,7 +537,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fj9cypg",
@@ -552,7 +594,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f8wm0v",
@@ -590,7 +632,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fb1jmlz",
@@ -685,7 +727,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1wgat2t",
@@ -704,7 +746,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1ghydyc",
@@ -932,7 +974,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fp53b74",
@@ -1027,7 +1069,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f11ukuyt",
@@ -1046,7 +1088,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f13q6hkp",
@@ -1084,7 +1126,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-11T19:18:26.867Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1eoabyg",
@@ -1122,7 +1164,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-13T19:17:29.557Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fuk0prt",
@@ -1141,7 +1183,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-16T21:42:00.145Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fzfp9gy",
@@ -1160,7 +1202,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-16T21:42:00.145Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f9wwx4q",
@@ -1181,7 +1223,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f2kalkr",
@@ -1247,6 +1289,48 @@
       "lastSeen": "2026-11-06T13:26:52.355Z"
     },
     {
+      "id": "f16bsf1t",
+      "title": "Project Manager",
+      "company": "Hays Specialist Recruitment Limited",
+      "rate": 608,
+      "length": "6 months",
+      "location": "Wellingborough",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/project-manager/57587747",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-18T14:47:51.513Z",
+      "lastSeen": "2026-11-18T14:47:51.513Z"
+    },
+    {
+      "id": "f1n42u31",
+      "title": "Project Manager (Cost/Sell & Induct)",
+      "company": "Hays Specialist Recruitment Limited",
+      "rate": 608,
+      "length": "6 months",
+      "location": "Wellingborough",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/project-manager-cost-sell-amp-induct/57587146",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-18T14:47:51.513Z",
+      "lastSeen": "2026-11-18T14:47:51.513Z"
+    },
+    {
       "id": "f1n44ch3",
       "title": "Change Manager",
       "company": "TXP Technology x People",
@@ -1265,7 +1349,49 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T19:36:43.075Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
+    },
+    {
+      "id": "f11mnvt6",
+      "title": "Senior Project & Programme Manager",
+      "company": "Adecco ",
+      "rate": 600,
+      "length": "",
+      "location": "Reading",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/senior-project-amp-programme-manager/57586982",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-18T14:47:51.513Z",
+      "lastSeen": "2026-11-18T14:47:51.513Z"
+    },
+    {
+      "id": "ftfahsp",
+      "title": "Senior Project & Programme Manager",
+      "company": "Adecco",
+      "rate": 600,
+      "length": "",
+      "location": "Englefield, Reading",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5970415657?utm_medium=api&utm_source=4d94b19c",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-18T14:47:51.513Z",
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1y0dhw7",
@@ -1349,7 +1475,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "fox53mz",
@@ -1538,7 +1664,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f10cksz9",
@@ -1727,7 +1853,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f15yqb7k",
@@ -1790,7 +1916,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-16T14:17:23.945Z",
-      "lastSeen": "2026-11-17T23:41:08.069Z"
+      "lastSeen": "2026-11-18T14:47:51.513Z"
     },
     {
       "id": "f1vzelh4",
