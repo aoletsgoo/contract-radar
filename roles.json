@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:01:47.907Z",
+  "generatedAt": "2026-11-19T23:18:42.382Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 9,
-    "warn": 54,
-    "risk": 32
+    "warn": 49,
+    "risk": 31
   },
   "roles": [
     {
@@ -56,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1585mq4",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fqt2tm3",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fdtljy9",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "famjq17",
@@ -182,7 +182,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1wi5bbq",
@@ -203,7 +203,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1sy5k2r",
@@ -311,27 +311,6 @@
       "lastSeen": "2026-11-13T22:16:13.893Z"
     },
     {
-      "id": "f1nxf6jw",
-      "title": "S/4HANA Public Cloud Project Manager - Contract - Outside IR35",
-      "company": "IO Associates",
-      "rate": 500,
-      "length": "",
-      "location": "Uxbridge, London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5943782534?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-28T11:49:54.108Z",
-      "lastSeen": "2026-10-29T21:28:29.194Z"
-    },
-    {
       "id": "flon4ze",
       "title": "Project Manager",
       "company": "Langham Recruitment",
@@ -371,7 +350,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fs48m1h",
@@ -392,7 +371,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1ae4lsr",
@@ -465,7 +444,7 @@
       "length": "6 months",
       "location": "London, UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5963199704?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/details/5972083694?utm_medium=api&utm_source=4d94b19c",
       "rating": 4,
       "evPlus": [
         "outside ir35"
@@ -476,7 +455,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-13T22:16:13.893Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1xndmgq",
@@ -497,7 +476,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-19T14:54:24.809Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fx12u2d",
@@ -539,7 +518,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f12hoxit",
@@ -549,7 +528,7 @@
       "length": "6 months",
       "location": "London, UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5969296732?se=XsphF1Tk8RGAvJnbPgF_oA&utm_medium=api&utm_source=4d94b19c&v=9CD8798DE591274F47176E2F1A9237CC2A594446",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5969296732?se=wnxBl2_k8RGQV8pfq4KZCg&utm_medium=api&utm_source=4d94b19c&v=9CD8798DE591274F47176E2F1A9237CC2A594446",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -558,7 +537,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fj9cypg",
@@ -615,7 +594,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f8wm0v",
@@ -653,7 +632,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fb1jmlz",
@@ -748,7 +727,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1wgat2t",
@@ -767,83 +746,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
-    },
-    {
-      "id": "f1ghydyc",
-      "title": "Business Analyst - Remote",
-      "company": "BCT Resourcing",
-      "rate": 0,
-      "length": "",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5943571380?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-10-29T21:28:29.194Z"
-    },
-    {
-      "id": "faz1bko",
-      "title": "Project Manager (Aluminium Doors)",
-      "company": "Ernest Gordon Recruitment",
-      "rate": 0,
-      "length": "",
-      "location": "Swinley, Wigan",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5943717413?se=Xgmltd_T8RGQ-s1xb079dA&utm_medium=api&utm_source=4d94b19c&v=93B41D2869D6433FA265156C1C9173314759FDE1",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-10-29T21:28:29.194Z"
-    },
-    {
-      "id": "ffui320",
-      "title": "Project Manager - Remote",
-      "company": "BCT Resourcing",
-      "rate": 0,
-      "length": "",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5943776016?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-28T11:49:54.108Z",
-      "lastSeen": "2026-10-29T21:28:29.194Z"
-    },
-    {
-      "id": "f1rmlrnh",
-      "title": "Technical Program Manager",
-      "company": "INTEC SELECT LIMITED",
-      "rate": 0,
-      "length": "12 months",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5943803213?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-28T11:49:54.108Z",
-      "lastSeen": "2026-10-29T21:28:29.194Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1rph1uh",
@@ -995,7 +898,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fp53b74",
@@ -1090,7 +993,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f11ukuyt",
@@ -1109,7 +1012,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f13q6hkp",
@@ -1147,7 +1050,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-11T19:18:26.867Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1eoabyg",
@@ -1185,7 +1088,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-13T19:17:29.557Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "fuk0prt",
@@ -1242,7 +1145,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T20:03:41.737Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f9wwx4q",
@@ -1263,7 +1166,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f2kalkr",
@@ -1347,7 +1250,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1n42u31",
@@ -1368,7 +1271,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1n44ch3",
@@ -1389,7 +1292,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T19:36:43.075Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f11mnvt6",
@@ -1410,7 +1313,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "ftfahsp",
@@ -1420,7 +1323,7 @@
       "length": "",
       "location": "Reading, Berkshire",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5970401670?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/details/5972082596?utm_medium=api&utm_source=4d94b19c",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -1431,7 +1334,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1y0dhw7",
@@ -1494,7 +1397,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f1w1i4co",
@@ -1641,7 +1544,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f10cksz9",
@@ -1683,7 +1586,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-19T14:54:24.809Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f69tmnz",
@@ -1791,27 +1694,6 @@
       "lastSeen": "2026-10-30T21:11:38.435Z"
     },
     {
-      "id": "f16fe570",
-      "title": "Customer Experience Business Analyst",
-      "company": "Teksystems",
-      "rate": 0,
-      "length": "6 months",
-      "location": "South East London, London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5944926553?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-29T11:57:40.673Z",
-      "lastSeen": "2026-10-29T21:28:29.194Z"
-    },
-    {
       "id": "f2sgk6k",
       "title": "Program Manager, Subscriptions Delivery",
       "company": "Randstad Technologies Recruitment",
@@ -1851,7 +1733,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-19T20:01:47.907Z"
+      "lastSeen": "2026-11-19T23:18:42.382Z"
     },
     {
       "id": "f15yqb7k",
