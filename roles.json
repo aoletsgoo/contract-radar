@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T19:40:18.620Z",
+  "generatedAt": "2026-11-20T22:51:13.368Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 9,
-    "warn": 52,
-    "risk": 31
+    "warn": 51,
+    "risk": 29
   },
   "roles": [
     {
@@ -56,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1585mq4",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fqt2tm3",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fdtljy9",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "famjq17",
@@ -182,7 +182,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1wi5bbq",
@@ -203,28 +203,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
-    },
-    {
-      "id": "f1sy5k2r",
-      "title": "Contract Program Manager- ERP",
-      "company": "Acuro Associates Ltd",
-      "rate": 650,
-      "length": "6 months",
-      "location": "Englefield, Reading",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5944688489?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside of ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-28T17:57:22.316Z",
-      "lastSeen": "2026-10-30T21:11:38.435Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fyv0ygl",
@@ -350,7 +329,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fs48m1h",
@@ -371,7 +350,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1ae4lsr",
@@ -455,7 +434,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1xndmgq",
@@ -476,7 +455,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-19T14:54:24.809Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fx12u2d",
@@ -518,7 +497,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f12hoxit",
@@ -594,7 +573,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f8wm0v",
@@ -632,7 +611,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fb1jmlz",
@@ -746,7 +725,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1wgat2t",
@@ -765,7 +744,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1rph1uh",
@@ -917,7 +896,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fp53b74",
@@ -1012,7 +991,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f11ukuyt",
@@ -1031,7 +1010,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f13q6hkp",
@@ -1069,7 +1048,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-11T19:18:26.867Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1eoabyg",
@@ -1107,7 +1086,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-13T19:17:29.557Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fuk0prt",
@@ -1164,7 +1143,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T20:03:41.737Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1cj9bdt",
@@ -1174,7 +1153,7 @@
       "length": "",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5973182624?se=7Pl-Phrl8RGuPayoyp3FzQ&utm_medium=api&utm_source=4d94b19c&v=3BF2950DBFDEFA925218FA0A3F3AFD3DE4E023E3",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5973182624?se=gj_i6TTl8RGK1Jozpv_WtA&utm_medium=api&utm_source=4d94b19c&v=3BF2950DBFDEFA925218FA0A3F3AFD3DE4E023E3",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -1183,7 +1162,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-20T19:40:18.620Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f9wwx4q",
@@ -1204,7 +1183,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "fq37j4f",
@@ -1225,7 +1204,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-20T19:40:18.620Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f2kalkr",
@@ -1309,7 +1288,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1n42u31",
@@ -1330,7 +1309,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1n44ch3",
@@ -1372,7 +1351,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "ftfahsp",
@@ -1393,7 +1372,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1y0dhw7",
@@ -1456,7 +1435,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f1w1i4co",
@@ -1603,7 +1582,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f10cksz9",
@@ -1645,7 +1624,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-19T14:54:24.809Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f69tmnz",
@@ -1711,48 +1690,6 @@
       "lastSeen": "2026-11-09T21:59:07.882Z"
     },
     {
-      "id": "f1gqorx2",
-      "title": "SAP Programme Manager - EWM - Remote - Inside IR35",
-      "company": "Morson Edge",
-      "rate": 0,
-      "length": "",
-      "location": "UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5944368523?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-28T11:49:54.108Z",
-      "lastSeen": "2026-10-30T21:11:38.435Z"
-    },
-    {
-      "id": "f13oiqxz",
-      "title": "Technical Program Manager",
-      "company": "Lancesoft Europe",
-      "rate": 0,
-      "length": "12 months",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5944849739?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "paye"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-10-28T21:23:59.788Z",
-      "lastSeen": "2026-10-30T21:11:38.435Z"
-    },
-    {
       "id": "f2sgk6k",
       "title": "Program Manager, Subscriptions Delivery",
       "company": "Randstad Technologies Recruitment",
@@ -1792,7 +1729,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-20T19:40:18.620Z"
+      "lastSeen": "2026-11-20T22:51:13.368Z"
     },
     {
       "id": "f15yqb7k",
