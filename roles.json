@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T03:05:19.978Z",
+  "generatedAt": "2026-11-24T16:42:28.883Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 9,
-    "warn": 49,
-    "risk": 29
+    "warn": 52,
+    "risk": 28
   },
   "roles": [
     {
@@ -56,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1585mq4",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fqt2tm3",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fdtljy9",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "famjq17",
@@ -182,7 +182,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1wi5bbq",
@@ -203,7 +203,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fyv0ygl",
@@ -350,7 +350,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1ae4lsr",
@@ -423,7 +423,7 @@
       "length": "6 months",
       "location": "London, UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5973009810?utm_medium=api&utm_source=4d94b19c",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5977265551?se=EMcuESbo8RGLYqZYfSmpUQ&utm_medium=api&utm_source=4d94b19c&v=D0FF294FCBA2CFA3FD715F06BBA5F762BBEC276B",
       "rating": 4,
       "evPlus": [
         "outside ir35"
@@ -434,7 +434,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-20T22:51:13.368Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1xndmgq",
@@ -481,6 +481,25 @@
       "lastSeen": "2026-11-17T00:32:43.648Z"
     },
     {
+      "id": "f1ep2dye",
+      "title": "D365 F&O Business Analyst",
+      "company": "iO Associates",
+      "rate": 700,
+      "length": "12 months",
+      "location": "London, UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5976666495?utm_medium=api&utm_source=4d94b19c",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-24T16:42:28.883Z",
+      "lastSeen": "2026-11-24T16:42:28.883Z"
+    },
+    {
       "id": "f1gbzwva",
       "title": "ServiceNow Business Analyst",
       "company": "Hays Specialist Recruitment Limited",
@@ -497,7 +516,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f12hoxit",
@@ -573,7 +592,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f8wm0v",
@@ -611,7 +630,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fb1jmlz",
@@ -649,7 +668,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T23:28:31.055Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fkxdc7g",
@@ -744,7 +763,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1wgat2t",
@@ -763,7 +782,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1dfgt7i",
@@ -839,7 +858,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fp53b74",
@@ -868,7 +887,7 @@
       "length": "",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5976259812?se=MpQf6rPn8RGBUuiRoBjMvg&utm_medium=api&utm_source=4d94b19c&v=67A58DA1F4B59B0119F9918808FB075FBC271A8E",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5976259812?se=psRtESbo8RGws85x9n5EuQ&utm_medium=api&utm_source=4d94b19c&v=67A58DA1F4B59B0119F9918808FB075FBC271A8E",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -877,7 +896,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-06T13:26:52.355Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1eudw06",
@@ -934,7 +953,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f11ukuyt",
@@ -953,7 +972,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f13q6hkp",
@@ -991,7 +1010,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-11T19:18:26.867Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1eoabyg",
@@ -1029,7 +1048,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-13T19:17:29.557Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fuk0prt",
@@ -1124,7 +1143,45 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T16:50:11.055Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
+    },
+    {
+      "id": "fph4i7q",
+      "title": "Project Manager",
+      "company": "Finlay Jude Recruitment Limited",
+      "rate": 0,
+      "length": "",
+      "location": "Merseyside",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/project-manager/57607702",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-24T16:42:28.883Z",
+      "lastSeen": "2026-11-24T16:42:28.883Z"
+    },
+    {
+      "id": "fftjf4g",
+      "title": "AP & AR Process Change Manager",
+      "company": "Robert Half",
+      "rate": 0,
+      "length": "6 months",
+      "location": "Bury St. Edmunds",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/ap-amp-ar-process-change-manager/57607870",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-24T16:42:28.883Z",
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f9wwx4q",
@@ -1145,7 +1202,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "fq37j4f",
@@ -1250,7 +1307,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1n42u31",
@@ -1271,7 +1328,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1n44ch3",
@@ -1313,7 +1370,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "ftfahsp",
@@ -1323,7 +1380,7 @@
       "length": "",
       "location": "Reading, Berkshire",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5975165170?se=MpQf6rPn8RGBUuiRoBjMvg&utm_medium=api&utm_source=4d94b19c&v=47EAEEBBAB7A23333092D509D9D89369F58452EE",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5975165170?se=psRtESbo8RGws85x9n5EuQ&utm_medium=api&utm_source=4d94b19c&v=47EAEEBBAB7A23333092D509D9D89369F58452EE",
       "rating": 8,
       "evPlus": [],
       "evMinus": [
@@ -1334,7 +1391,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1y0dhw7",
@@ -1397,7 +1454,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1w1i4co",
@@ -1419,27 +1476,6 @@
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
       "lastSeen": "2026-11-09T21:59:07.882Z"
-    },
-    {
-      "id": "fny779k",
-      "title": "Interim Business Analyst",
-      "company": "Deerfoot Recruitment Solutions",
-      "rate": 475,
-      "length": "3 months",
-      "location": "The City, Central London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5951006395?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-11-02T23:43:35.932Z",
-      "lastSeen": "2026-11-03T13:14:51.129Z"
     },
     {
       "id": "f5f2hy7",
@@ -1523,7 +1559,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f10cksz9",
@@ -1670,7 +1706,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f15yqb7k",
@@ -1754,7 +1790,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T16:50:11.055Z",
-      "lastSeen": "2026-11-24T03:05:19.978Z"
+      "lastSeen": "2026-11-24T16:42:28.883Z"
     },
     {
       "id": "f1vzelh4",
