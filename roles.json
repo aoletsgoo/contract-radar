@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T21:58:27.580Z",
+  "generatedAt": "2026-11-25T01:11:21.155Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -12,8 +12,8 @@
   },
   "counts": {
     "safe": 9,
-    "warn": 53,
-    "risk": 27
+    "warn": 52,
+    "risk": 26
   },
   "roles": [
     {
@@ -56,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1585mq4",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fqt2tm3",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fdtljy9",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "famjq17",
@@ -182,7 +182,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1wi5bbq",
@@ -203,7 +203,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fyv0ygl",
@@ -350,7 +350,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1ae4lsr",
@@ -434,7 +434,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1xndmgq",
@@ -497,7 +497,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T16:42:28.883Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1gbzwva",
@@ -516,7 +516,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f12hoxit",
@@ -592,7 +592,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f8wm0v",
@@ -630,7 +630,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fb1jmlz",
@@ -668,7 +668,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T23:28:31.055Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fkxdc7g",
@@ -763,7 +763,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1wgat2t",
@@ -782,26 +782,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
-    },
-    {
-      "id": "f1dfgt7i",
-      "title": "Project Manager (Manufacturing)",
-      "company": "Ernest Gordon Recruitment",
-      "rate": 0,
-      "length": "",
-      "location": "Swinley, Wigan",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5950836525?se=7rrmCNPX8RGtDZBIyhV77A&utm_medium=api&utm_source=4d94b19c&v=42C466D7DABF57D7FF82E1BA6B8EF2C0893DBF7F",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-11-02T21:27:31.859Z",
-      "lastSeen": "2026-11-03T22:07:48.333Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1xmiura",
@@ -858,7 +839,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fp53b74",
@@ -887,7 +868,7 @@
       "length": "",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5976259812?se=RP_vNFLo8RGi1apkMwkphA&utm_medium=api&utm_source=4d94b19c&v=67A58DA1F4B59B0119F9918808FB075FBC271A8E",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5976259812?se=ICFXKG3o8RGJ3IkP01vxSg&utm_medium=api&utm_source=4d94b19c&v=67A58DA1F4B59B0119F9918808FB075FBC271A8E",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -896,7 +877,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-06T13:26:52.355Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1eudw06",
@@ -953,7 +934,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f11ukuyt",
@@ -972,7 +953,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f13q6hkp",
@@ -1010,7 +991,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-11T19:18:26.867Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1eoabyg",
@@ -1048,7 +1029,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-13T19:17:29.557Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fuk0prt",
@@ -1143,7 +1124,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T16:50:11.055Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fph4i7q",
@@ -1162,7 +1143,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T16:42:28.883Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fftjf4g",
@@ -1181,7 +1162,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T16:42:28.883Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f19q8lap",
@@ -1191,7 +1172,7 @@
       "length": "",
       "location": "Stanley, Liverpool",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5977435771?se=ELMbNFLo8RGUNbceY1_rPw&utm_medium=api&utm_source=4d94b19c&v=D9473220FB1D4140159BF8E150DED18F17514E6F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5977435771?se=9Am-J23o8RGi1apkMwkphA&utm_medium=api&utm_source=4d94b19c&v=D9473220FB1D4140159BF8E150DED18F17514E6F",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -1200,7 +1181,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T21:58:27.580Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f9wwx4q",
@@ -1221,7 +1202,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "fq37j4f",
@@ -1326,7 +1307,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1n42u31",
@@ -1347,7 +1328,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1n44ch3",
@@ -1389,7 +1370,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "ftfahsp",
@@ -1473,7 +1454,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1w1i4co",
@@ -1495,27 +1476,6 @@
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
       "lastSeen": "2026-11-09T21:59:07.882Z"
-    },
-    {
-      "id": "f1hrp5uz",
-      "title": "Interim Business Analyst - SAP S/4HANA",
-      "company": "Deerfoot Recruitment Solutions",
-      "rate": 475,
-      "length": "3 months",
-      "location": "The City, Central London",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5951006395?utm_medium=api&utm_source=4d94b19c",
-      "rating": 8,
-      "evPlus": [],
-      "evMinus": [
-        "inside ir35"
-      ],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-11-03T19:09:44.176Z",
-      "lastSeen": "2026-11-03T22:07:48.333Z"
     },
     {
       "id": "fd3u9mw",
@@ -1557,7 +1517,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f10cksz9",
@@ -1578,7 +1538,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T22:28:39.589Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1qm0m0r",
@@ -1704,7 +1664,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f15yqb7k",
@@ -1788,7 +1748,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T16:50:11.055Z",
-      "lastSeen": "2026-11-24T21:58:27.580Z"
+      "lastSeen": "2026-11-25T01:11:21.155Z"
     },
     {
       "id": "f1vzelh4",
