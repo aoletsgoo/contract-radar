@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T01:11:21.155Z",
+  "generatedAt": "2026-11-25T16:27:22.645Z",
   "brief": {
     "min": 400,
     "max": 700,
@@ -13,7 +13,7 @@
   "counts": {
     "safe": 9,
     "warn": 52,
-    "risk": 26
+    "risk": 27
   },
   "roles": [
     {
@@ -56,7 +56,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1585mq4",
@@ -98,7 +98,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T11:15:41.548Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fqt2tm3",
@@ -119,7 +119,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fdtljy9",
@@ -161,7 +161,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "famjq17",
@@ -182,7 +182,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1wi5bbq",
@@ -203,7 +203,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fyv0ygl",
@@ -290,6 +290,27 @@
       "lastSeen": "2026-11-13T22:16:13.893Z"
     },
     {
+      "id": "f9vhclw",
+      "title": "LIMS Project Manager (Must have pharma) - 100% remote outside IR35 - 6 months",
+      "company": "Exalto Consulting Limited",
+      "rate": 600,
+      "length": "6 months",
+      "location": "UK",
+      "source": "Adzuna",
+      "url": "https://www.adzuna.co.uk/jobs/details/5978106034?utm_medium=api&utm_source=4d94b19c",
+      "rating": 4,
+      "evPlus": [
+        "outside ir35"
+      ],
+      "evMinus": [],
+      "confidence": "low",
+      "notes": "Snippet only — read the full advert before trusting this rating.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-25T16:27:22.645Z",
+      "lastSeen": "2026-11-25T16:27:22.645Z"
+    },
+    {
       "id": "flon4ze",
       "title": "Project Manager",
       "company": "Langham Recruitment",
@@ -350,28 +371,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-16T16:11:49.372Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
-    },
-    {
-      "id": "f1ae4lsr",
-      "title": "Programme / Project Manager",
-      "company": "IO Associates",
-      "rate": 0,
-      "length": "6 months",
-      "location": "London, UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5952183639?utm_medium=api&utm_source=4d94b19c",
-      "rating": 4,
-      "evPlus": [
-        "outside ir35"
-      ],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-04T13:28:18.247Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fb41s60",
@@ -434,7 +434,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1xndmgq",
@@ -497,7 +497,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T16:42:28.883Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1gbzwva",
@@ -516,7 +516,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-09T14:41:47.487Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f12hoxit",
@@ -592,7 +592,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-20T16:26:54.670Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f8wm0v",
@@ -630,26 +630,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T21:01:56.815Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
-    },
-    {
-      "id": "fb1jmlz",
-      "title": "Contract Embedded Business Analyst",
-      "company": "AND Digital",
-      "rate": 450,
-      "length": "3 months",
-      "location": "UK",
-      "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/details/5951607189?utm_medium=api&utm_source=4d94b19c",
-      "rating": 5,
-      "evPlus": [],
-      "evMinus": [],
-      "confidence": "low",
-      "notes": "Snippet only — read the full advert before trusting this rating.",
-      "status": "new",
-      "fromFeed": true,
-      "firstSeen": "2026-11-03T13:14:51.129Z",
-      "lastSeen": "2026-11-04T13:28:18.247Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fm9yiqf",
@@ -668,7 +649,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T23:28:31.055Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fkxdc7g",
@@ -763,7 +744,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-22T16:44:27.374Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1wgat2t",
@@ -782,7 +763,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-26T18:21:47.990Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1xmiura",
@@ -839,7 +820,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T19:26:32.293Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fp53b74",
@@ -868,7 +849,7 @@
       "length": "",
       "location": "UK",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5976259812?se=ICFXKG3o8RGJ3IkP01vxSg&utm_medium=api&utm_source=4d94b19c&v=67A58DA1F4B59B0119F9918808FB075FBC271A8E",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5976259812?se=RHhdIe3o8RGNKuNG3uSlJw&utm_medium=api&utm_source=4d94b19c&v=67A58DA1F4B59B0119F9918808FB075FBC271A8E",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -877,7 +858,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-06T13:26:52.355Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1eudw06",
@@ -934,7 +915,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f11ukuyt",
@@ -953,7 +934,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-10T19:24:27.538Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f13q6hkp",
@@ -991,7 +972,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-11T19:18:26.867Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1eoabyg",
@@ -1029,7 +1010,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-13T19:17:29.557Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fuk0prt",
@@ -1124,7 +1105,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T16:50:11.055Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fph4i7q",
@@ -1143,7 +1124,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T16:42:28.883Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fftjf4g",
@@ -1162,7 +1143,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T16:42:28.883Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f19q8lap",
@@ -1172,7 +1153,7 @@
       "length": "",
       "location": "Stanley, Liverpool",
       "source": "Adzuna",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5977435771?se=9Am-J23o8RGi1apkMwkphA&utm_medium=api&utm_source=4d94b19c&v=D9473220FB1D4140159BF8E150DED18F17514E6F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5977435771?se=qiB4IO3o8RGNKuNG3uSlJw&utm_medium=api&utm_source=4d94b19c&v=D9473220FB1D4140159BF8E150DED18F17514E6F",
       "rating": 5,
       "evPlus": [],
       "evMinus": [],
@@ -1181,7 +1162,26 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-24T21:58:27.580Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
+    },
+    {
+      "id": "f1eobtl3",
+      "title": "Global Project Manager",
+      "company": "Conexus",
+      "rate": 0,
+      "length": "",
+      "location": "Spain",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/global-project-manager/57611915",
+      "rating": 5,
+      "evPlus": [],
+      "evMinus": [],
+      "confidence": "normal",
+      "notes": "Call the recruiter before applying.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-25T16:27:22.645Z",
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f9wwx4q",
@@ -1202,7 +1202,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "fq37j4f",
@@ -1307,7 +1307,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1n42u31",
@@ -1328,7 +1328,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1n44ch3",
@@ -1370,7 +1370,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "ftfahsp",
@@ -1392,6 +1392,27 @@
       "fromFeed": true,
       "firstSeen": "2026-11-18T14:47:51.513Z",
       "lastSeen": "2026-11-24T21:58:27.580Z"
+    },
+    {
+      "id": "f15apoy9",
+      "title": "Data Migration Business Analyst",
+      "company": "Hays Specialist Recruitment Limited",
+      "rate": 552,
+      "length": "6 months",
+      "location": "London",
+      "source": "Reed",
+      "url": "https://www.reed.co.uk/jobs/data-migration-business-analyst/57612819",
+      "rating": 8,
+      "evPlus": [],
+      "evMinus": [
+        "inside ir35"
+      ],
+      "confidence": "normal",
+      "notes": "Skip unless the recruiter contradicts the advert.",
+      "status": "new",
+      "fromFeed": true,
+      "firstSeen": "2026-11-25T16:27:22.645Z",
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1y0dhw7",
@@ -1454,7 +1475,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-10-27T17:34:49.908Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1w1i4co",
@@ -1517,7 +1538,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T14:14:42.604Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f10cksz9",
@@ -1538,7 +1559,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-12T22:28:39.589Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1qm0m0r",
@@ -1664,7 +1685,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-04T13:28:18.247Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f15yqb7k",
@@ -1748,7 +1769,7 @@
       "status": "new",
       "fromFeed": true,
       "firstSeen": "2026-11-23T16:50:11.055Z",
-      "lastSeen": "2026-11-25T01:11:21.155Z"
+      "lastSeen": "2026-11-25T16:27:22.645Z"
     },
     {
       "id": "f1vzelh4",
